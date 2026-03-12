@@ -1,4 +1,4 @@
-# Projecte DJ_A_combustibleaaa
+# Projecte DJ_A_combustible
 
 >**Autors:** 
 >**Versió: **
@@ -7,7 +7,12 @@
 
 ## Objectiu
 
->PCB per aprovar l'assignatura
+> Monitorització en temps real el nivell de combustible i les seves condicions (pressió/temperatura).
+
+Control de la bomba de combustible i el tancament de seguretat de forma automàtica.
+
+Bona connexió amb el vehicle per a que altres unitats de control tinguin accès a la informació.
+
 
 
 ## Diagrama de blocs
