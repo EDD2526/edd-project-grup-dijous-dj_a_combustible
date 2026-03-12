@@ -1,4 +1,4 @@
-# Projecte DJ_A_combustible
+# Projecte DJ_A_combustibleaaa
 
 >**Autors:** 
 >**Versió: **
@@ -7,7 +7,7 @@
 
 ## Objectiu
 
->PCB per ...
+>PCB per aprovar l'assignatura
 
 
 ## Diagrama de blocs
