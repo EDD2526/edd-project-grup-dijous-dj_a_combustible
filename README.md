@@ -11,7 +11,7 @@
 
 
 ## Diagrama de blocs
-
+![Diagrama_de_blocs](C:\Users\danco\Documents\AA_UB\AA_SEMESTRE4\EdD\AA_PROJECTE\edd-project-grup-dijous-dj_a_combustible\diagramablocs_dia_12_03.png)
 
 ### Descripció/funcionalitat de cada bloc
 
