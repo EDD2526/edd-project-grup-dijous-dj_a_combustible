@@ -1,13 +1,14 @@
 # Projecte DJ_A_combustible
 
->**Autors:** 
->**Versió: **
+>**Autors: Edgar Castro i Pere Ribas
+>**Versió: 1
 
 ----------
 
 ## Objectiu
 
-> Monitorització en temps real el nivell de combustible i les seves condicions (pressió/temperatura).
+> 
+Monitorització en temps real el nivell de combustible i les seves condicions (pressió/temperatura).
 
 Control de la bomba de combustible i el tancament de seguretat de forma automàtica.
 
