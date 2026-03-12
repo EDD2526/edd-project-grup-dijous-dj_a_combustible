@@ -7,7 +7,7 @@
 
 ## Objectiu
 
->PCB per ...
+>PCB per aprovar l'assignatura
 
 
 ## Diagrama de blocs
