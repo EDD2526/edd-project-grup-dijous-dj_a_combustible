@@ -1,4 +1,4 @@
-# Projecte XXXXXXXXXXXXX
+# Projecte HOLA
 
 >**Autors:** 
 >**Versió: **
