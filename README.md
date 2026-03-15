@@ -21,13 +21,13 @@ Bona connexió amb el vehicle per a que altres unitats de control tinguin accès
 
 ### Descripció/funcionalitat de cada bloc
 
-  **ETAPA 1, Potència**
+  **Etapa 1, Potència**
 
-  **Etapa 2, Microcontrolador**
+  **Etapa 2, Control**
 
-  **Etapa 3, Sensors i Control**
+  **Etapa 3, Sensors**
 
-  **Etapa 4, Connexions**
+  **Etapa 4, Interacció i comunicació**
 
 -----------
 
