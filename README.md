@@ -21,7 +21,13 @@ Bona connexió amb el vehicle per a que altres unitats de control tinguin accès
 
 ### Descripció/funcionalitat de cada bloc
 
-  *
+  **ETAPA 1, Potència**
+
+  **Etapa 2, Microcontrolador**
+
+  **Etapa 3, Sensors i Control**
+
+  **Etapa 4, Connexions**
 
 -----------
 
@@ -65,3 +71,11 @@ Bona connexió amb el vehicle per a que altres unitats de control tinguin accès
 | Data | Autor     | Branch | Versi&#243; | Descripci&#243; |
 | --- | --- | --- | --- | --- |
 |  28/03/2023 | mlopez | Master | initial commit | Primera versi&#243; d'esquem&#224;tic i selecci&#243; de components |
+
+
+### 15/03/2026
+He millorat el diagrama de blocs, tant l'etapa 1 com la 3.
+A més he fet que les fletxes siguin més gruixudes per tal que es vegin millor.
+Al KiCad he obert l'esquemàtic i he **creat els subesquemàtics**, en els quals només he posat els noms de les etapes 1 i 3.
+I he fet una **carpeta** per anar posant les millores dels **diagràmes de **blocs**.
+Realment del diagrama de blocs només quedaria posar el **nom i especificacions generals dels components que falten**,  acabar de modificar una mical del **disseny del diagrama** i ja estaria acabat.
