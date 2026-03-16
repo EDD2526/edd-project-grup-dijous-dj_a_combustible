@@ -17,9 +17,9 @@
 		)
 		(uuid "05d42b3d-44bb-45cc-a0dc-d179ee3ef6fb")
 	)
-	(text "ETAPA 4"
+	(text "INTERACCIÓ\nI\nCOMUNICACIÓ"
 		(exclude_from_sim no)
-		(at 191.262 122.428 0)
+		(at 189.23 120.904 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -146,7 +146,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "2ae4c977-7e45-4d92-9ae0-450b29246e42")
-		(property "Sheetname" "ETAPA_4"
+		(property "Sheetname" "ETAPA_INTERACCIO_I_COMUNICACIO"
 			(at 146.05 94.5384 0)
 			(effects
 				(font
