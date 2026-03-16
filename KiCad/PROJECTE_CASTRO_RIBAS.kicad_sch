@@ -1,0 +1,265 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "27a7fca5-115a-450a-aa60-496c314f6c0e")
+	(paper "A4")
+	(lib_symbols)
+	(text "Projecte d'Eines de Disseny"
+		(exclude_from_sim no)
+		(at 205.486 189.738 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
+			)
+		)
+		(uuid "05d42b3d-44bb-45cc-a0dc-d179ee3ef6fb")
+	)
+	(text "ETAPA 4"
+		(exclude_from_sim no)
+		(at 191.262 122.428 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "2c6cccf4-6350-466a-a5b0-645325938e7b")
+	)
+	(text "PROJECTE COMBUSTIBLE"
+		(exclude_from_sim no)
+		(at 229.616 173.736 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "39b6f2cf-c833-45e4-8c36-dd4cc87ba2f8")
+	)
+	(text "SENSORS"
+		(exclude_from_sim no)
+		(at 79.502 122.174 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "7b9732c7-811d-4a0b-b793-949b95b9dee9")
+	)
+	(text "POTÈNCIA"
+		(exclude_from_sim no)
+		(at 77.216 51.308 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "85c108ca-a0b7-4b40-b34e-2fdef05a0651")
+	)
+	(text "CONTROL"
+		(exclude_from_sim no)
+		(at 187.96 52.07 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "862f9748-708f-4627-a1aa-de59638dadba")
+	)
+	(text "15/03/2026"
+		(exclude_from_sim no)
+		(at 212.852 193.294 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+		)
+		(uuid "e5ea232a-058c-476e-a374-04a71d4910a9")
+	)
+	(sheet
+		(at 36.83 95.25)
+		(size 86.36 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "214c85b5-e11a-40fa-b086-a325260ddb4b")
+		(property "Sheetname" "ETAPA_SENSORS"
+			(at 36.83 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "etapa_sensorskicad_sch.kicad_sch"
+			(at 36.83 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PROJECTE_CASTRO_RIBAS"
+				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 146.05 95.25)
+		(size 86.36 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2ae4c977-7e45-4d92-9ae0-450b29246e42")
+		(property "Sheetname" "ETAPA_4"
+			(at 146.05 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "etapa_4.kicad_sch"
+			(at 146.05 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PROJECTE_CASTRO_RIBAS"
+				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 146.05 26.67)
+		(size 86.36 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c7bfedf3-33ba-455f-a470-83e81ef64913")
+		(property "Sheetname" "ETAPA_CONTROL"
+			(at 146.05 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "etapa_control.kicad_sch"
+			(at 146.05 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PROJECTE_CASTRO_RIBAS"
+				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 36.83 26.67)
+		(size 86.36 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ec53bbba-b928-4ac3-a14f-8fa23a3d226d")
+		(property "Sheetname" "ETAPA_POTENCIA"
+			(at 36.83 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "etapa_potencia.kicad_sch"
+			(at 36.83 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PROJECTE_CASTRO_RIBAS"
+				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
