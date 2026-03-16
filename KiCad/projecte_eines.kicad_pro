@@ -419,15 +419,15 @@
     ],
     [
       "919dea04-07f6-4a94-8a92-8a8e97d5b165",
-      "ETAPA2_NOMETAPA2"
+      "ETAPA2_CONTROL"
     ],
     [
       "610f0710-f7df-4c7b-bcd2-3f31ffbb9ce8",
-      "ETAPA3_SENSORS_I_CONTROL"
+      "ETAPA3_SENSORS"
     ],
     [
       "79088549-73fc-4a92-a9fa-dbd5514fbd9d",
-      "ETAPA4_NOMETAPA4"
+      "ETAPA4_INTERACCIO_I_COMUNICACIO"
     ]
   ],
   "text_variables": {}

@@ -28,7 +28,7 @@
 		)
 		(uuid "4338f4c0-cb45-4ab7-933d-17158dbc8dba")
 	)
-	(text "SENSORS\nI\nCONTROL"
+	(text "SENSORS\n"
 		(exclude_from_sim no)
 		(at 67.564 125.476 0)
 		(effects
@@ -39,7 +39,7 @@
 		)
 		(uuid "5a1cd516-dda1-48e2-874a-b951ae6bbbc8")
 	)
-	(text "ETAPA 2"
+	(text "CONTROL"
 		(exclude_from_sim no)
 		(at 212.344 59.69 0)
 		(effects
@@ -50,7 +50,7 @@
 		)
 		(uuid "5ede1267-153f-443b-a678-38a85e517621")
 	)
-	(text "ETAPA 4"
+	(text "INTERACCIÓ\nI\nCOMUNICACIÓ"
 		(exclude_from_sim no)
 		(at 214.63 124.714 0)
 		(effects
@@ -143,7 +143,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "610f0710-f7df-4c7b-bcd2-3f31ffbb9ce8")
-		(property "Sheetname" "ETAPA3_SENSORS_I_CONTROL"
+		(property "Sheetname" "ETAPA3_SENSORS"
 			(at 29.21 95.8084 0)
 			(effects
 				(font
@@ -185,7 +185,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "79088549-73fc-4a92-a9fa-dbd5514fbd9d")
-		(property "Sheetname" "ETAPA4_NOMETAPA4"
+		(property "Sheetname" "ETAPA4_INTERACCIO_I_COMUNICACIO"
 			(at 173.99 95.8084 0)
 			(effects
 				(font
@@ -227,7 +227,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "919dea04-07f6-4a94-8a92-8a8e97d5b165")
-		(property "Sheetname" "ETAPA2_NOMETAPA2"
+		(property "Sheetname" "ETAPA2_CONTROL"
 			(at 173.99 32.3084 0)
 			(effects
 				(font
