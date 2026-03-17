@@ -2266,7 +2266,7 @@
 			(uuid "d9fe775f-8b81-4bc5-88c9-26fd1c2666a5")
 		)
 		(instances
-			(project ""
+			(project "PROJECTE_CASTRO_RIBAS"
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/c7bfedf3-33ba-455f-a470-83e81ef64913"
 					(reference "#PWR02")
 					(unit 1)
@@ -2336,7 +2336,7 @@
 			(uuid "2d586943-5456-405e-b017-6fdeaed11c37")
 		)
 		(instances
-			(project ""
+			(project "PROJECTE_CASTRO_RIBAS"
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/c7bfedf3-33ba-455f-a470-83e81ef64913"
 					(reference "C2")
 					(unit 1)
@@ -2534,7 +2534,7 @@
 			(uuid "9209fcce-b1f3-4cc7-8958-56778b598577")
 		)
 		(instances
-			(project ""
+			(project "PROJECTE_CASTRO_RIBAS"
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/c7bfedf3-33ba-455f-a470-83e81ef64913"
 					(reference "#PWR01")
 					(unit 1)
@@ -2623,7 +2623,7 @@
 			(uuid "da431f12-553c-44ab-afbe-b68e987ac3a9")
 		)
 		(instances
-			(project ""
+			(project "PROJECTE_CASTRO_RIBAS"
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/c7bfedf3-33ba-455f-a470-83e81ef64913"
 					(reference "J1")
 					(unit 1)
@@ -2691,7 +2691,7 @@
 			(uuid "7a2e0dfb-d0f6-40d5-a373-961112b4aab6")
 		)
 		(instances
-			(project ""
+			(project "PROJECTE_CASTRO_RIBAS"
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/c7bfedf3-33ba-455f-a470-83e81ef64913"
 					(reference "C6")
 					(unit 1)
@@ -2757,7 +2757,7 @@
 			(uuid "4a7afa15-74ab-4e6a-8ce1-2e050ec8fe24")
 		)
 		(instances
-			(project ""
+			(project "PROJECTE_CASTRO_RIBAS"
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/c7bfedf3-33ba-455f-a470-83e81ef64913"
 					(reference "#PWR08")
 					(unit 1)
@@ -2823,7 +2823,7 @@
 			(uuid "60657b1a-ab15-4580-a400-57e06850953f")
 		)
 		(instances
-			(project ""
+			(project "PROJECTE_CASTRO_RIBAS"
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/c7bfedf3-33ba-455f-a470-83e81ef64913"
 					(reference "#PWR05")
 					(unit 1)
@@ -3048,7 +3048,7 @@
 			(uuid "1bcc8277-21b1-44c9-84aa-bfd4cb6362ff")
 		)
 		(instances
-			(project ""
+			(project "PROJECTE_CASTRO_RIBAS"
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/c7bfedf3-33ba-455f-a470-83e81ef64913"
 					(reference "U2")
 					(unit 1)
@@ -3114,7 +3114,7 @@
 			(uuid "33e00437-e2b5-4d68-8d40-14927cf851c1")
 		)
 		(instances
-			(project ""
+			(project "PROJECTE_CASTRO_RIBAS"
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/c7bfedf3-33ba-455f-a470-83e81ef64913"
 					(reference "#PWR07")
 					(unit 1)
@@ -3181,7 +3181,7 @@
 			(uuid "7e865a4f-ab91-4649-a7dd-bfe1d69be18b")
 		)
 		(instances
-			(project ""
+			(project "PROJECTE_CASTRO_RIBAS"
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/c7bfedf3-33ba-455f-a470-83e81ef64913"
 					(reference "C5")
 					(unit 1)
@@ -3247,7 +3247,7 @@
 			(uuid "73444f13-1fef-4a03-a61e-7896ac6f4906")
 		)
 		(instances
-			(project ""
+			(project "PROJECTE_CASTRO_RIBAS"
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/c7bfedf3-33ba-455f-a470-83e81ef64913"
 					(reference "#PWR06")
 					(unit 1)
@@ -3360,7 +3360,7 @@
 			(uuid "da94ba97-9362-4657-9321-1f528f4e7ce6")
 		)
 		(instances
-			(project ""
+			(project "PROJECTE_CASTRO_RIBAS"
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/c7bfedf3-33ba-455f-a470-83e81ef64913"
 					(reference "U1")
 					(unit 1)
@@ -3430,7 +3430,7 @@
 			(uuid "07967930-30cc-4568-992d-8af1dd510e39")
 		)
 		(instances
-			(project ""
+			(project "PROJECTE_CASTRO_RIBAS"
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/c7bfedf3-33ba-455f-a470-83e81ef64913"
 					(reference "C1")
 					(unit 1)

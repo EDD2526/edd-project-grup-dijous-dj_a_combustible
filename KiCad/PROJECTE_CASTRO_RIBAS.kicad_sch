@@ -197,7 +197,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "etapa_control.kicad_sch"
+		(property "Sheetfile" "control_v2.kicad_sch"
 			(at 146.05 78.0546 0)
 			(effects
 				(font
