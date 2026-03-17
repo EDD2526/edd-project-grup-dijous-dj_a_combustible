@@ -155,7 +155,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "etapa_interaccio_i_comunicacio.kicad_sch"
+		(property "Sheetfile" "interaccio_i_comunicacio_v2.kicad_sch"
 			(at 146.05 146.6346 0)
 			(effects
 				(font
