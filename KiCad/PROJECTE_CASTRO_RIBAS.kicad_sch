@@ -155,7 +155,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "etapa_4.kicad_sch"
+		(property "Sheetfile" "etapa_interaccio_i_comunicacio.kicad_sch"
 			(at 146.05 146.6346 0)
 			(effects
 				(font
@@ -197,7 +197,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "etapa_control.kicad_sch"
+		(property "Sheetfile" "control_v2.kicad_sch"
 			(at 146.05 78.0546 0)
 			(effects
 				(font
