@@ -36,7 +36,7 @@ Bona connexió amb el vehicle per a que altres unitats de control tinguin accès
 ## Requisits / Especificacions
 
   * Alimentació; 12V, regulada 5V
-  * Microcontrolador PIC18xxxxxxxxx
+  * Microcontrolador PIC24HJ128GP502
   * ...
 
 -----------
@@ -81,3 +81,9 @@ A més he fet que les fletxes siguin més gruixudes per tal que es vegin millor.
 Al KiCad he obert l'esquemàtic i he **creat els subesquemàtics**, en els quals només he posat els noms de les etapes 1 i 3.
 I he fet una **carpeta** per anar posant les millores dels **diagràmes de **blocs**.
 Realment del diagrama de blocs només quedaria posar el **nom i especificacions generals dels components que falten**,  acabar de modificar una mical del **disseny del diagrama** i ja estaria acabat.
+
+### 19/03/2026
+Hem millorat el diagrama de blocs, amb les correccions dels professors.
+També hem començat la part esquemàtica de les diferents etapes a KiCad. En general, s'ha avançat gran part, quedarien connectar pocs pins i definir-los correctament, entendre bé el funcionament i les correccions del professor. 
+A més, també haurem de millorar l'organització dels subesquemàtics creats a la carpeta compartida per tal d'aquesta manera tenir una millor visualització i entendre les etapes millor. 
+Properament haurem de assignar valors als diferents components i optimitzar algun circuit
