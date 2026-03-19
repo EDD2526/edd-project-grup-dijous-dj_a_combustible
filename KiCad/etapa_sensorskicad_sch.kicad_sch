@@ -1662,6 +1662,16 @@
 		)
 		(uuid "c9340b40-0d87-496a-80a5-3dce0fb2cb43")
 	)
+	(text "footprint:\nWQFN RGH-16"
+		(exclude_from_sim no)
+		(at 38.1 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ffe22d95-45bc-4610-a7ff-5f7eb08177f0")
+	)
 	(junction
 		(at 48.26 50.8)
 		(diameter 0)
