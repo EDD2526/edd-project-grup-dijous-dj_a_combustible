@@ -910,7 +910,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 186.69 100.33 180)
+		(at 199.39 100.33 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -919,7 +919,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f2d852b-8736-4eb0-8514-7b857eaf8e2c")
 		(property "Reference" "D1"
-			(at 188.2775 92.71 0)
+			(at 200.9775 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -927,7 +927,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 188.2775 95.25 0)
+			(at 200.9775 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -935,7 +935,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 100.33 0)
+			(at 199.39 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -944,7 +944,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 100.33 0)
+			(at 199.39 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -953,7 +953,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 186.69 100.33 0)
+			(at 199.39 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -962,7 +962,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 186.69 100.33 0)
+			(at 199.39 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1259,7 +1259,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 187.96 123.19 180)
+		(at 199.39 123.19 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1268,7 +1268,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e2e926d-15aa-4130-9ab8-163609376b83")
 		(property "Reference" "D2"
-			(at 189.5475 115.57 0)
+			(at 200.9775 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1276,7 +1276,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 189.5475 118.11 0)
+			(at 200.9775 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1284,7 +1284,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 123.19 0)
+			(at 199.39 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1293,7 +1293,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 123.19 0)
+			(at 199.39 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1302,7 +1302,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 187.96 123.19 0)
+			(at 199.39 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1311,7 +1311,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 187.96 123.19 0)
+			(at 199.39 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1468,7 +1468,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 199.39 100.33 90)
+		(at 186.69 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1477,7 +1477,7 @@
 		(fields_autoplaced yes)
 		(uuid "c703a243-ddef-4751-afa5-a49a342ba0f6")
 		(property "Reference" "R2"
-			(at 199.39 93.98 90)
+			(at 186.69 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1485,7 +1485,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 199.39 96.52 90)
+			(at 186.69 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1493,7 +1493,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 102.108 90)
+			(at 186.69 102.108 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1502,7 +1502,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 199.39 100.33 0)
+			(at 186.69 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1511,7 +1511,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 199.39 100.33 0)
+			(at 186.69 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1536,7 +1536,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 199.39 123.19 90)
+		(at 187.96 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1545,7 +1545,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce0d3fc4-bdae-4c44-aab9-2ed5ba58726a")
 		(property "Reference" "R4"
-			(at 199.39 116.84 90)
+			(at 187.96 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1553,7 +1553,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 199.39 119.38 90)
+			(at 187.96 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1561,7 +1561,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 124.968 90)
+			(at 187.96 124.968 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1570,7 +1570,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 199.39 123.19 0)
+			(at 187.96 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1579,7 +1579,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 199.39 123.19 0)
+			(at 187.96 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
