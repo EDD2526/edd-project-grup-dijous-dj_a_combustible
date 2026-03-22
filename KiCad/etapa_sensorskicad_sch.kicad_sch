@@ -844,6 +844,309 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Relay:Fujitsu_FTR-LYAA005x"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K"
+				(at 11.43 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Fujitsu_FTR-LYAA005x"
+				(at 11.43 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Relay_THT:Relay_SPST-NO_Fujitsu_FTR-LYAA005x_FormA_Vertical"
+				(at 11.43 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.fujitsu.com/sg/imagesgig5/ftr-ly.pdf"
+				(at 17.78 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Relay, SPST Form A, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "6A SPST-NO Relay"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Relay*Fujitsu*FTR?LYA*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fujitsu_FTR-LYAA005x_0_0"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fujitsu_FTR-LYAA005x_0_1"
+				(rectangle
+					(start -10.16 5.08)
+					(end 10.16 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -8.255 1.905)
+					(end -1.905 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -1.905) (xy -2.54 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy -5.08 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy -5.08 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 3.175 3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fujitsu_FTR-LYAA005x_1_1"
+				(pin passive line
+					(at -5.08 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Sensors_Custom:FDC2214"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1640,7 +1943,7 @@
 	)
 	(text "Control de Bomba\ni Tancament del Dipòsit\nmitjançant MOSFETs"
 		(exclude_from_sim no)
-		(at 228.854 44.196 0)
+		(at 224.79 29.972 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -1679,22 +1982,28 @@
 		(uuid "13aab919-ac90-40b9-aecc-31358e25cd5f")
 	)
 	(junction
-		(at 227.33 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2003aee0-e238-40dd-9aa1-778ea7d71604")
-	)
-	(junction
 		(at 93.98 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25cc6070-77e5-475d-9ded-e8141ab4bbc7")
 	)
 	(junction
-		(at 227.33 85.09)
+		(at 220.98 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "28aed715-a7e4-41b3-9b69-fa77c049a6c8")
+		(uuid "2cbc9da2-b3d7-4e74-a248-e33440f1646a")
+	)
+	(junction
+		(at 222.25 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e9d6f0b-2582-4487-bef2-7f3d0ee7b8a0")
+	)
+	(junction
+		(at 214.63 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33ee1cbb-3cfc-4626-8414-386878be7c61")
 	)
 	(junction
 		(at 78.74 53.34)
@@ -1715,16 +2024,22 @@
 		(uuid "8f200c01-43d8-434a-9561-8a936a0b5bd5")
 	)
 	(junction
-		(at 227.33 77.47)
+		(at 215.9 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bf741801-788c-425b-a7ca-f311c5ed85ef")
+		(uuid "dc0a3942-cb02-458c-8b3d-11d78a4ff3ea")
 	)
 	(junction
-		(at 227.33 124.46)
+		(at 208.28 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ddf50580-3721-400e-83bb-505f31483b98")
+		(uuid "de98be2a-8341-4a81-bada-41ed0bb26ee1")
+	)
+	(junction
+		(at 209.55 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4e5809e-af1f-427b-bb02-082c6bda9375")
 	)
 	(junction
 		(at 50.8 48.26)
@@ -1734,13 +2049,33 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 85.09) (xy 227.33 77.47)
+			(xy 215.9 118.11) (xy 215.9 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0ce49496-97b6-416c-8c30-299fd27b87c3")
+		(uuid "03442299-1c71-4a17-91a5-a614faff5881")
+	)
+	(wire
+		(pts
+			(xy 226.06 139.7) (xy 251.46 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a36f39f-4433-41bb-b079-295acb1cbca0")
+	)
+	(wire
+		(pts
+			(xy 203.2 140.97) (xy 209.55 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10581a9d-0f6d-42b2-93e8-c38656f776fe")
 	)
 	(wire
 		(pts
@@ -1754,13 +2089,13 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 85.09) (xy 227.33 87.63)
+			(xy 214.63 54.61) (xy 214.63 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "18df8965-23ed-4c85-ae6e-48f2cd546e2e")
+		(uuid "1a492f4f-9e10-4385-aeff-6f12880180c4")
 	)
 	(wire
 		(pts
@@ -1804,13 +2139,13 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 116.84) (xy 227.33 111.76)
+			(xy 201.93 68.58) (xy 201.93 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "28831466-c44f-4191-8c67-b0f42565b30e")
+		(uuid "2a33a3f9-69fc-4ee5-a540-fdfa2583fc45")
 	)
 	(wire
 		(pts
@@ -1824,6 +2159,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 135.89) (xy 215.9 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3215f265-81d5-40ab-9664-ed8be76adde3")
+	)
+	(wire
+		(pts
 			(xy 48.26 50.8) (xy 48.26 52.07)
 		)
 		(stroke
@@ -1834,17 +2179,27 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 127) (xy 227.33 124.46)
+			(xy 220.98 46.99) (xy 220.98 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4011bd42-5791-456e-a97d-683dee139c52")
+		(uuid "384a666d-38d0-4f1f-9b40-66519bfd381e")
 	)
 	(wire
 		(pts
-			(xy 227.33 72.39) (xy 227.33 77.47)
+			(xy 209.55 148.59) (xy 209.55 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4174b0e8-45b2-44d4-a9e9-8c2d51204b37")
+	)
+	(wire
+		(pts
+			(xy 214.63 72.39) (xy 214.63 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1874,13 +2229,23 @@
 	)
 	(bus
 		(pts
-			(xy 278.13 26.67) (xy 278.13 154.94)
+			(xy 281.94 13.97) (xy 281.94 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "50ecf844-ec61-4af1-88d7-14a615afa3c7")
+	)
+	(wire
+		(pts
+			(xy 247.65 78.74) (xy 247.65 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "517120b4-259b-49c2-b475-553f52c5d554")
 	)
 	(wire
 		(pts
@@ -1891,16 +2256,6 @@
 			(type default)
 		)
 		(uuid "5351b1ed-7686-4915-baa3-d63ad73269dc")
-	)
-	(wire
-		(pts
-			(xy 227.33 124.46) (xy 227.33 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "580452ea-bd25-4d1e-962d-87dd679e9c74")
 	)
 	(bus
 		(pts
@@ -1934,17 +2289,17 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 72.39) (xy 240.03 72.39)
+			(xy 220.98 54.61) (xy 214.63 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "600cb9c8-9bc8-4832-b8e9-ee07d0ce7223")
+		(uuid "5e3909a5-9376-4648-a44d-a1a864d8c072")
 	)
 	(bus
 		(pts
-			(xy 180.34 26.67) (xy 278.13 26.67)
+			(xy 177.8 13.97) (xy 275.59 13.97)
 		)
 		(stroke
 			(width 0)
@@ -1961,16 +2316,6 @@
 			(type default)
 		)
 		(uuid "655b993a-aca8-4a57-a626-52dd82cc9502")
-	)
-	(bus
-		(pts
-			(xy 278.13 154.94) (xy 180.34 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b2f95dc-1cbf-49eb-9e58-9adac517a82b")
 	)
 	(wire
 		(pts
@@ -1991,16 +2336,6 @@
 			(type default)
 		)
 		(uuid "6e7bbc53-d6d7-4069-97ce-11ba96a0927d")
-	)
-	(wire
-		(pts
-			(xy 220.98 116.84) (xy 227.33 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6eb09701-8cfb-47d9-9f79-3f329700186e")
 	)
 	(wire
 		(pts
@@ -2034,17 +2369,27 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 69.85) (xy 240.03 69.85)
+			(xy 228.6 120.65) (xy 228.6 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7bf308f7-72ee-4fe9-901a-62af6cd7a058")
+		(uuid "7950efbd-a19b-4b66-97a8-9e83f3b1b1fa")
 	)
 	(wire
 		(pts
-			(xy 227.33 97.79) (xy 227.33 101.6)
+			(xy 250.19 78.74) (xy 247.65 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bddae43-e0ee-4549-884c-e169da218f5f")
+	)
+	(wire
+		(pts
+			(xy 208.28 97.79) (xy 208.28 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2054,13 +2399,23 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 109.22) (xy 242.57 109.22)
+			(xy 248.92 142.24) (xy 248.92 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8deca63d-e839-48e2-8da3-a982716b96a5")
+		(uuid "8bd55623-d566-4453-b239-62375f5ea6fe")
+	)
+	(wire
+		(pts
+			(xy 214.63 77.47) (xy 208.28 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f9be77d-fe85-41b1-b43d-3547108d612b")
 	)
 	(bus
 		(pts
@@ -2074,7 +2429,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 132.08) (xy 219.71 132.08)
+			(xy 196.85 153.67) (xy 201.93 153.67)
 		)
 		(stroke
 			(width 0)
@@ -2084,7 +2439,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 137.16) (xy 227.33 139.7)
+			(xy 209.55 158.75) (xy 209.55 161.29)
 		)
 		(stroke
 			(width 0)
@@ -2104,17 +2459,57 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 111.76) (xy 242.57 111.76)
+			(xy 215.9 140.97) (xy 209.55 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a1541792-4560-47f4-a0dd-82c623953d1f")
+		(uuid "9cbb9d61-c8cc-4966-a5ff-4e631bb2512f")
+	)
+	(wire
+		(pts
+			(xy 222.25 110.49) (xy 222.25 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d31b31c-9a88-4bcd-a094-1f69803d0c92")
+	)
+	(wire
+		(pts
+			(xy 201.93 60.96) (xy 201.93 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f2b2bcb-5267-43f1-a270-4fe9b9cc2483")
+	)
+	(wire
+		(pts
+			(xy 251.46 142.24) (xy 248.92 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a065e933-8a8f-4074-bd26-7115035ea246")
+	)
+	(wire
+		(pts
+			(xy 220.98 54.61) (xy 227.33 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0fd62ca-63c9-44f9-8c74-3a8098952bbb")
 	)
 	(bus
 		(pts
-			(xy 180.34 26.67) (xy 180.34 154.94)
+			(xy 165.1 15.24) (xy 165.1 156.21)
 		)
 		(stroke
 			(width 0)
@@ -2134,7 +2529,17 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 92.71) (xy 219.71 92.71)
+			(xy 222.25 118.11) (xy 228.6 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7607392-1690-4783-98d0-38617eba72b0")
+	)
+	(wire
+		(pts
+			(xy 194.31 92.71) (xy 200.66 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2144,13 +2549,23 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 124.46) (xy 227.33 124.46)
+			(xy 203.2 130.81) (xy 203.2 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b91580c0-c075-421a-892e-ed85dc2b999d")
+		(uuid "ad62bfed-961c-43fc-9006-2c68c9655a01")
+	)
+	(wire
+		(pts
+			(xy 227.33 57.15) (xy 227.33 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd584c78-3c3d-42d5-b3a7-7863181d7633")
 	)
 	(wire
 		(pts
@@ -2171,6 +2586,16 @@
 			(type default)
 		)
 		(uuid "c0beb6d3-9749-4aa7-bf1c-1460ee3a410f")
+	)
+	(wire
+		(pts
+			(xy 224.79 76.2) (xy 250.19 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c310fc55-d591-435f-8af2-b35958d208f0")
 	)
 	(bus
 		(pts
@@ -2194,13 +2619,13 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 77.47) (xy 227.33 77.47)
+			(xy 226.06 135.89) (xy 226.06 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d1114a07-6f5f-4c29-870d-a57e24e5eea4")
+		(uuid "ce22c6df-b705-40a8-913b-884d223a8902")
 	)
 	(wire
 		(pts
@@ -2234,13 +2659,43 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 85.09) (xy 227.33 85.09)
+			(xy 201.93 54.61) (xy 214.63 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dae1f9f4-e840-4d77-abf3-3dc84a110e58")
+	)
+	(wire
+		(pts
+			(xy 208.28 77.47) (xy 208.28 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc1c9462-c408-4319-ba60-7220553b3cb9")
+	)
+	(wire
+		(pts
+			(xy 201.93 77.47) (xy 208.28 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dcece6f8-f2e1-411d-90b8-80e1a3b0ba96")
+	)
+	(wire
+		(pts
+			(xy 203.2 123.19) (xy 203.2 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2f71653-fc79-4d3d-a471-8177e230db87")
 	)
 	(wire
 		(pts
@@ -2254,6 +2709,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 72.39) (xy 224.79 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f498c101-2725-4f92-8b55-e637faed572a")
+	)
+	(wire
+		(pts
 			(xy 48.26 52.07) (xy 76.2 52.07)
 		)
 		(stroke
@@ -2264,6 +2729,26 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 118.11) (xy 215.9 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7c446ff-70aa-4767-ac93-839e6de46907")
+	)
+	(wire
+		(pts
+			(xy 222.25 118.11) (xy 215.9 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f856e1ea-417b-458d-884e-ab1e4a2d442a")
+	)
+	(wire
+		(pts
 			(xy 123.19 38.1) (xy 125.73 38.1)
 		)
 		(stroke
@@ -2271,26 +2756,6 @@
 			(type default)
 		)
 		(uuid "ff1e2a1b-2981-4276-9d09-448587a07e2e")
-	)
-	(label "Node_Negatiu_Tancament"
-		(at 227.33 114.3 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "03b557bb-183f-4265-a607-642cf4561099")
-	)
-	(label "Node_Negatiu_Bomba"
-		(at 227.33 74.93 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "9c815ba1-361d-4d45-b609-28ae8316f592")
 	)
 	(global_label "SDA"
 		(shape input)
@@ -2404,6 +2869,28 @@
 			)
 		)
 	)
+	(global_label "Vcc_12V"
+		(shape input)
+		(at 222.25 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "41dfbc86-29b8-4ba8-8b72-ecd30fef9f45")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.5238 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VCC"
 		(shape input)
 		(at 137.16 38.1 0)
@@ -2428,7 +2915,7 @@
 	)
 	(global_label "DO_control_tancament"
 		(shape input)
-		(at 207.01 132.08 180)
+		(at 196.85 153.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2438,7 +2925,7 @@
 		)
 		(uuid "51c4d6c9-eee1-4427-a6e8-cba058adb3b5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.8585 132.08 0)
+			(at 172.6985 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2450,7 +2937,7 @@
 	)
 	(global_label "DO_control_bomba"
 		(shape input)
-		(at 207.01 92.71 180)
+		(at 194.31 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2460,29 +2947,7 @@
 		)
 		(uuid "671905ab-161c-4cde-83dd-7c9f7692dd71")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.4871 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Vcc_12V"
-		(shape input)
-		(at 240.03 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6cce0528-f671-416f-9093-b5195eb9425a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.3038 109.22 0)
+			(at 173.7871 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2582,7 +3047,7 @@
 	)
 	(global_label "Vcc_12V"
 		(shape input)
-		(at 237.49 69.85 180)
+		(at 220.98 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2590,15 +3055,99 @@
 			)
 			(justify right)
 		)
-		(uuid "daa04086-2e15-41f8-b269-7f2b269adc4a")
+		(uuid "eca09ac8-9d10-43f4-8f8e-fe1fc714697d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.7638 69.85 0)
+			(at 210.2538 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:Fujitsu_FTR-LYAA005x")
+		(at 220.98 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04592ec8-c69f-484b-8ce8-ab5a9f213fb3")
+		(property "Reference" "K?"
+			(at 232.41 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fujitsu_FTR-LYAA005x"
+			(at 232.41 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPST-NO_Fujitsu_FTR-LYAA005x_FormA_Vertical"
+			(at 232.41 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.fujitsu.com/sg/imagesgig5/ftr-ly.pdf"
+			(at 238.76 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Relay, SPST Form A, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
+			(at 220.98 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A1"
+			(uuid "f996dbbf-2922-4c9e-90cf-f9b2cd0b3255")
+		)
+		(pin "14"
+			(uuid "18f2a6af-37ca-4cc0-82dc-8524b6d0f0ac")
+		)
+		(pin "A2"
+			(uuid "d601a3db-c2b2-4cc4-91fb-aca0c10e4346")
+		)
+		(pin "13"
+			(uuid "17a61dc7-e28f-4503-a983-7ddd8fb2d3af")
+		)
+		(instances
+			(project "PROJECTE_CASTRO_RIBAS"
+				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/214c85b5-e11a-40fa-b086-a325260ddb4b"
+					(reference "K2")
+					(unit 1)
+				)
+			)
+			(project "etapa_sensorskicad_sch"
+				(path "/a5825663-6741-4fe9-979d-902603592be1"
+					(reference "K?")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2612,7 +3161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04b4a615-07d6-4fce-a11f-2b36eeaaea4b")
-		(property "Reference" "R1"
+		(property "Reference" "R?"
 			(at 129.54 31.75 90)
 			(effects
 				(font
@@ -2668,6 +3217,12 @@
 					(unit 1)
 				)
 			)
+			(project "etapa_sensorskicad_sch"
+				(path "/a5825663-6741-4fe9-979d-902603592be1"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2680,7 +3235,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1600cfce-8da4-4305-b77c-79a474390cca")
-		(property "Reference" "J2"
+		(property "Reference" "J?"
 			(at 67.945 40.64 0)
 			(effects
 				(font
@@ -2742,6 +3297,12 @@
 					(unit 1)
 				)
 			)
+			(project "etapa_sensorskicad_sch"
+				(path "/a5825663-6741-4fe9-979d-902603592be1"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2754,7 +3315,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b8fb163-3d7d-49e8-afcd-3ce8c0088949")
-		(property "Reference" "U1"
+		(property "Reference" "U?"
 			(at 38.1 105.41 0)
 			(effects
 				(font
@@ -2855,11 +3416,101 @@
 					(unit 1)
 				)
 			)
+			(project "etapa_sensorskicad_sch"
+				(path "/a5825663-6741-4fe9-979d-902603592be1"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:Fujitsu_FTR-LYAA005x")
+		(at 219.71 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fec0090-8f46-4cdb-a6be-fd7355867ada")
+		(property "Reference" "K?"
+			(at 231.14 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fujitsu_FTR-LYAA005x"
+			(at 231.14 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPST-NO_Fujitsu_FTR-LYAA005x_FormA_Vertical"
+			(at 231.14 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.fujitsu.com/sg/imagesgig5/ftr-ly.pdf"
+			(at 237.49 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Relay, SPST Form A, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
+			(at 219.71 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A1"
+			(uuid "08b7f3d4-3082-4cb9-a654-1c16439a8849")
+		)
+		(pin "14"
+			(uuid "82c41623-f983-4dbd-8bfb-67e3b1e64a6a")
+		)
+		(pin "A2"
+			(uuid "2439779d-b995-41c6-a49e-537426f87e18")
+		)
+		(pin "13"
+			(uuid "c6f2a73e-86b2-4d05-b3d4-3fccb9a5e61e")
+		)
+		(instances
+			(project ""
+				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/214c85b5-e11a-40fa-b086-a325260ddb4b"
+					(reference "K1")
+					(unit 1)
+				)
+			)
+			(project "etapa_sensorskicad_sch"
+				(path "/a5825663-6741-4fe9-979d-902603592be1"
+					(reference "K?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Transistor_FET:IRLIZ44N")
-		(at 224.79 92.71 0)
+		(at 205.74 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2867,8 +3518,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36b949dc-317e-47be-9c46-0e4429c4bb9f")
-		(property "Reference" "MOSFET_controlbomba"
-			(at 231.14 91.4399 0)
+		(property "Reference" "MOSFET_controlbomba?"
+			(at 212.09 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2877,7 +3528,7 @@
 			)
 		)
 		(property "Value" "IRLIZ44N"
-			(at 231.14 93.9799 0)
+			(at 212.09 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2886,7 +3537,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220F-3_Vertical"
-			(at 229.87 94.615 0)
+			(at 210.82 94.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2897,7 +3548,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irliz44n.pdf"
-			(at 229.87 96.52 0)
+			(at 210.82 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2907,7 +3558,7 @@
 			)
 		)
 		(property "Description" "30A Id, 55V Vds, 22mOhm Rds, N-Channel HEXFET Power MOSFET, TO-220AB"
-			(at 224.79 92.71 0)
+			(at 205.74 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2931,19 +3582,25 @@
 					(unit 1)
 				)
 			)
+			(project "etapa_sensorskicad_sch"
+				(path "/a5825663-6741-4fe9-979d-902603592be1"
+					(reference "MOSFET_controlbomba?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 220.98 81.28 270)
+		(at 201.93 64.77 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "44aa84eb-2a18-4cd2-9fef-c81ccf739eba")
-		(property "Reference" "D_proteccio_bomba"
-			(at 217.424 68.072 0)
+		(property "Reference" "D_proteccio_bomba?"
+			(at 198.374 51.562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2952,7 +3609,7 @@
 			)
 		)
 		(property "Value" "1N007"
-			(at 219.71 72.898 0)
+			(at 200.66 56.388 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2961,7 +3618,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 81.28 0)
+			(at 201.93 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2970,7 +3627,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 220.98 81.28 0)
+			(at 201.93 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2979,7 +3636,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 220.98 81.28 0)
+			(at 201.93 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2988,7 +3645,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 220.98 81.28 0)
+			(at 201.93 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2997,7 +3654,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 220.98 81.28 0)
+			(at 201.93 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3018,11 +3675,17 @@
 					(unit 1)
 				)
 			)
+			(project "etapa_sensorskicad_sch"
+				(path "/a5825663-6741-4fe9-979d-902603592be1"
+					(reference "D_proteccio_bomba?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 245.11 69.85 0)
+		(at 256.54 139.7 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3030,9 +3693,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "531ae015-c569-4145-9ba5-9bc7fd017f0d")
-		(property "Reference" "Connector_Bomba"
-			(at 246.38 69.8499 0)
+		(uuid "45ad47b4-9f41-4f4a-b60c-6173141279fd")
+		(property "Reference" "Connector_Tancament?"
+			(at 257.81 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3041,7 +3704,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 246.38 72.3899 0)
+			(at 257.81 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3050,7 +3713,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 245.11 69.85 0)
+			(at 256.54 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3059,7 +3722,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 69.85 0)
+			(at 256.54 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3068,7 +3731,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 245.11 69.85 0)
+			(at 256.54 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3077,15 +3740,170 @@
 			)
 		)
 		(pin "1"
-			(uuid "d5016afb-afc6-4d87-890a-46f764271691")
+			(uuid "3299ca2a-f403-4246-a4cd-6c738c1f3488")
 		)
 		(pin "2"
-			(uuid "6cb70f69-6e7c-4d03-89df-e12a24427838")
+			(uuid "d57b7b7a-ccc8-454f-b54c-6f2acf24a6a0")
 		)
 		(instances
-			(project ""
+			(project "PROJECTE_CASTRO_RIBAS"
+				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/214c85b5-e11a-40fa-b086-a325260ddb4b"
+					(reference "Connector_Tancament")
+					(unit 1)
+				)
+			)
+			(project "etapa_sensorskicad_sch"
+				(path "/a5825663-6741-4fe9-979d-902603592be1"
+					(reference "Connector_Tancament?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 248.92 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "746e2af8-46b7-4c35-a1cf-076fbbefa834")
+		(property "Reference" "#PWR?"
+			(at 248.92 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 248.92 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 248.92 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9305e157-b733-4868-9321-e5d2de2f0f96")
+		)
+		(instances
+			(project "PROJECTE_CASTRO_RIBAS"
+				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/214c85b5-e11a-40fa-b086-a325260ddb4b"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+			(project "etapa_sensorskicad_sch"
+				(path "/a5825663-6741-4fe9-979d-902603592be1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 255.27 76.2 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ffd5d1c-b556-4dbc-964b-b7f749c13342")
+		(property "Reference" "Connector_Bomba?"
+			(at 256.54 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 256.54 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 255.27 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d5c65a0-1db0-42c2-8acc-5866c0297b88")
+		)
+		(pin "2"
+			(uuid "21b483b4-825c-4fe3-9bfe-9f4282027e82")
+		)
+		(instances
+			(project "PROJECTE_CASTRO_RIBAS"
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/214c85b5-e11a-40fa-b086-a325260ddb4b"
 					(reference "Connector_Bomba")
+					(unit 1)
+				)
+			)
+			(project "etapa_sensorskicad_sch"
+				(path "/a5825663-6741-4fe9-979d-902603592be1"
+					(reference "Connector_Bomba?")
 					(unit 1)
 				)
 			)
@@ -3093,16 +3911,15 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:IRLIZ44N")
-		(at 224.79 132.08 0)
+		(at 207.01 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "875c224a-0aa7-4826-822c-e92f2942ffe8")
-		(property "Reference" "Q1"
-			(at 231.14 130.8099 0)
+		(property "Reference" "Q?"
+			(at 213.36 152.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3111,7 +3928,7 @@
 			)
 		)
 		(property "Value" "IRLIZ44N"
-			(at 231.14 133.3499 0)
+			(at 213.36 154.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3120,7 +3937,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220F-3_Vertical"
-			(at 229.87 133.985 0)
+			(at 212.09 155.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3131,7 +3948,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irliz44n.pdf"
-			(at 229.87 135.89 0)
+			(at 212.09 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3141,7 +3958,7 @@
 			)
 		)
 		(property "Description" "30A Id, 55V Vds, 22mOhm Rds, N-Channel HEXFET Power MOSFET, TO-220AB"
-			(at 224.79 132.08 0)
+			(at 207.01 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3165,39 +3982,43 @@
 					(unit 1)
 				)
 			)
+			(project "etapa_sensorskicad_sch"
+				(path "/a5825663-6741-4fe9-979d-902603592be1"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 247.65 109.22 0)
-		(mirror y)
+		(lib_id "Device:D")
+		(at 203.2 127 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ab51d7e1-725f-4154-a039-d002e73cd6ed")
-		(property "Reference" "Connector_Tancament"
-			(at 248.92 109.2199 0)
+		(uuid "8c2b2fd4-a647-49a3-8628-fc3a69aa862c")
+		(property "Reference" "D_proteccio_bomba?"
+			(at 199.644 113.792 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 248.92 111.7599 0)
+		(property "Value" "1N007"
+			(at 201.93 118.618 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 109.22 0)
+			(at 203.2 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3206,7 +4027,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 247.65 109.22 0)
+			(at 203.2 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3214,8 +4035,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 247.65 109.22 0)
+		(property "Description" "Diode"
+			(at 203.2 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 203.2 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 203.2 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3224,15 +4063,93 @@
 			)
 		)
 		(pin "1"
-			(uuid "ade605fa-533a-42c8-9e25-f983bc7bda9f")
+			(uuid "46cdabf1-9ee1-46d2-a53c-3a571bba3898")
 		)
 		(pin "2"
-			(uuid "3fe7a3d5-e653-46b7-938f-bb012d575ff9")
+			(uuid "208fbb79-8146-491a-9e79-560695443b51")
 		)
 		(instances
 			(project "PROJECTE_CASTRO_RIBAS"
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/214c85b5-e11a-40fa-b086-a325260ddb4b"
-					(reference "Connector_Tancament")
+					(reference "D_proteccio_bomba1")
+					(unit 1)
+				)
+			)
+			(project "etapa_sensorskicad_sch"
+				(path "/a5825663-6741-4fe9-979d-902603592be1"
+					(reference "D_proteccio_bomba?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 247.65 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5c9655b-418b-411a-a375-e781b9b4b0e7")
+		(property "Reference" "#PWR?"
+			(at 247.65 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 247.65 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 247.65 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0ea84ba-efab-47b8-9049-c8d5a24c7a42")
+		)
+		(instances
+			(project ""
+				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/214c85b5-e11a-40fa-b086-a325260ddb4b"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+			(project "etapa_sensorskicad_sch"
+				(path "/a5825663-6741-4fe9-979d-902603592be1"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3247,7 +4164,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b30f5217-23d2-4588-8b5f-b114365c3f5e")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR?"
 			(at 93.98 54.61 0)
 			(effects
 				(font
@@ -3301,11 +4218,17 @@
 					(unit 1)
 				)
 			)
+			(project "etapa_sensorskicad_sch"
+				(path "/a5825663-6741-4fe9-979d-902603592be1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 227.33 101.6 0)
+		(at 208.28 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3313,8 +4236,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c099af44-df74-4f4f-9ca6-46798fe6bc61")
-		(property "Reference" "#PWR03"
-			(at 227.33 107.95 0)
+		(property "Reference" "#PWR?"
+			(at 208.28 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3323,7 +4246,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 227.33 106.68 0)
+			(at 208.28 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3331,7 +4254,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 227.33 101.6 0)
+			(at 208.28 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3340,7 +4263,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 101.6 0)
+			(at 208.28 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3349,7 +4272,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 227.33 101.6 0)
+			(at 208.28 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3367,6 +4290,12 @@
 					(unit 1)
 				)
 			)
+			(project "etapa_sensorskicad_sch"
+				(path "/a5825663-6741-4fe9-979d-902603592be1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3379,7 +4308,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d064e06a-ad44-4a4c-9cc4-790b3fadbcdc")
-		(property "Reference" "J1"
+		(property "Reference" "J?"
 			(at 29.845 40.64 0)
 			(effects
 				(font
@@ -3441,6 +4370,12 @@
 					(unit 1)
 				)
 			)
+			(project "etapa_sensorskicad_sch"
+				(path "/a5825663-6741-4fe9-979d-902603592be1"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3453,7 +4388,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d312a55c-ecf8-4dfe-9468-09a1c3ae2b97")
-		(property "Reference" "C1"
+		(property "Reference" "C?"
 			(at 54.61 43.1799 0)
 			(effects
 				(font
@@ -3511,6 +4446,12 @@
 					(unit 1)
 				)
 			)
+			(project "etapa_sensorskicad_sch"
+				(path "/a5825663-6741-4fe9-979d-902603592be1"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3523,7 +4464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3f4a095-d620-4d93-a9be-5b74074105d1")
-		(property "Reference" "C2"
+		(property "Reference" "C?"
 			(at 97.79 43.1799 0)
 			(effects
 				(font
@@ -3581,20 +4522,25 @@
 					(unit 1)
 				)
 			)
+			(project "etapa_sensorskicad_sch"
+				(path "/a5825663-6741-4fe9-979d-902603592be1"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 227.33 139.7 0)
+		(at 209.55 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d6276a2d-1194-458f-9ae7-4dd5554f68b8")
-		(property "Reference" "#PWR04"
-			(at 227.33 146.05 0)
+		(property "Reference" "#PWR?"
+			(at 209.55 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3603,7 +4549,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 227.33 144.78 0)
+			(at 213.36 164.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3611,7 +4557,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 227.33 139.7 0)
+			(at 209.55 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3620,7 +4566,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 139.7 0)
+			(at 209.55 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3629,7 +4575,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 227.33 139.7 0)
+			(at 209.55 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3647,6 +4593,12 @@
 					(unit 1)
 				)
 			)
+			(project "etapa_sensorskicad_sch"
+				(path "/a5825663-6741-4fe9-979d-902603592be1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3659,7 +4611,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e291cb80-4827-4d68-8258-c801d9fcfb73")
-		(property "Reference" "R2"
+		(property "Reference" "R?"
 			(at 129.54 45.72 90)
 			(effects
 				(font
@@ -3715,6 +4667,12 @@
 					(unit 1)
 				)
 			)
+			(project "etapa_sensorskicad_sch"
+				(path "/a5825663-6741-4fe9-979d-902603592be1"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3726,7 +4684,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e5e207af-38c3-48bc-9e57-fadbda76b43a")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR?"
 			(at 50.8 54.61 0)
 			(effects
 				(font
@@ -3780,93 +4738,18 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 220.98 120.65 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f4902f30-b72c-4c9d-a10f-a62c8194db61")
-		(property "Reference" "D_proteccio_tancament"
-			(at 217.424 107.442 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N007"
-			(at 219.71 112.268 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 220.98 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 220.98 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 220.98 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 220.98 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 220.98 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c61567b-0cec-457c-912f-add3140f02a2")
-		)
-		(pin "2"
-			(uuid "d0a7951b-4436-4131-a018-4a927ab00229")
-		)
-		(instances
-			(project ""
-				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/214c85b5-e11a-40fa-b086-a325260ddb4b"
-					(reference "D_proteccio_tancament")
+			(project "etapa_sensorskicad_sch"
+				(path "/a5825663-6741-4fe9-979d-902603592be1"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
