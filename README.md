@@ -19,7 +19,7 @@ Bona connexió amb el vehicle per a que altres unitats de control tinguin accès
 
 
 ## Diagrama de blocs
-![Diagrama_de_blocs](C:\Users\danco\Documents\AA_UB\AA_SEMESTRE4\EdD\AA_PROJECTE\edd-project-grup-dijous-dj_a_combustible\diagramablocs_dia_12_03.png)
+![Diagrama_de_blocs](C:\Users\danco\Documents\AA_UB\AA_SEMESTRE4\EdD\AA_PROJECTE\edd-project-grup-dijous-dj_a_combustible\DIAGRAMABLOCSFINAL.png)
 
 ### Descripció/funcionalitat de cada bloc
 
@@ -87,3 +87,8 @@ Hem millorat el diagrama de blocs, amb les correccions dels professors.
 També hem començat la part esquemàtica de les diferents etapes a KiCad. En general, s'ha avançat gran part, quedarien connectar pocs pins i definir-los correctament, entendre bé el funcionament i les correccions del professor. 
 A més, també haurem de millorar l'organització dels subesquemàtics creats a la carpeta compartida per tal d'aquesta manera tenir una millor visualització i entendre les etapes millor. 
 Properament haurem de assignar valors als diferents components i optimitzar algun circuit
+
+### 22/03/2026
+S'ha *finalitzat definitivament el diagram de blocs*.
+A l'etapa de control s'ha **afegit** un **relé** per a major **protecció** per al microcontrolador degut a les grans càrregues i potències que pot comportar el funcionament de la bomba i el tancament.
+S'ha **afegit** el símbol del sensor de combustible **FDC2214**, falta **crear** el símbol del sensor de pressió **FXTH87**
