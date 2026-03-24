@@ -9,7 +9,6 @@ View this project on [CADLAB.io](https://cadlab.io/project/30195).
 
 ## Objectiu
 
-> 
 Monitorització en temps real el nivell de combustible i les seves condicions (pressió/temperatura).
 
 Control de la bomba de combustible i el tancament de seguretat de forma automàtica.
@@ -92,3 +91,7 @@ Properament haurem de assignar valors als diferents components i optimitzar algu
 S'ha *finalitzat definitivament el diagram de blocs*.
 A l'etapa de control s'ha **afegit** un **relé** per a major **protecció** per al microcontrolador degut a les grans càrregues i potències que pot comportar el funcionament de la bomba i el tancament.
 S'ha **afegit** el símbol del sensor de combustible **FDC2214**, falta **crear** el símbol del sensor de pressió **FXTH87**
+
+### 24/03/2026
+A dia d'avui, en principi no queda pràcticament res (de la part de l'esquemàtic). S'ha avançat gran part del que ens vam proposar en la darrera sessió de pràctiques, com la forma dels pins, afegir els pins que faltaven, els valors dels components, etc., juntament amb les correccions del professor. A banda d'això, també s'ha afegit una part de programació ICSP per a que l'usuari pugui controlar al seu gust mitjançant un connector extern del propi usuari al microcontrolador. 
+A la tarda d'avui, només queda (de moment) crear el símbol del sensor de pressió i connectar els pins corresponents.
