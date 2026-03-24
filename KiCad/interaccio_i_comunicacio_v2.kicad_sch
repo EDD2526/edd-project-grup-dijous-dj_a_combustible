@@ -902,7 +902,7 @@
 		(uuid "f01bf444-92b5-41d4-be57-fd0a0e858fa6")
 	)
 	(global_label "PULS_START"
-		(shape input)
+		(shape output)
 		(at 114.3 100.33 0)
 		(fields_autoplaced yes)
 		(effects
@@ -924,7 +924,7 @@
 		)
 	)
 	(global_label "D0_control_tancament"
-		(shape output)
+		(shape input)
 		(at 173.99 123.19 180)
 		(fields_autoplaced yes)
 		(effects
@@ -946,7 +946,7 @@
 		)
 	)
 	(global_label "PULS_STOP"
-		(shape input)
+		(shape output)
 		(at 114.3 123.19 0)
 		(fields_autoplaced yes)
 		(effects
@@ -968,7 +968,7 @@
 		)
 	)
 	(global_label "D0_control_bomba"
-		(shape output)
+		(shape input)
 		(at 173.99 100.33 180)
 		(fields_autoplaced yes)
 		(effects
