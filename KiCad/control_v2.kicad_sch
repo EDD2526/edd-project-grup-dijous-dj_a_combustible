@@ -2902,8 +2902,20 @@
 		(uuid "00c31301-cd34-464c-ac23-69b35bf78e57")
 	)
 	(no_connect
+		(at 220.98 57.15)
+		(uuid "112cafbf-7596-40a7-87eb-aaea7909bb1d")
+	)
+	(no_connect
 		(at 31.75 92.71)
 		(uuid "1a9d7f77-a17b-45fa-be3b-b39d8df4a12a")
+	)
+	(no_connect
+		(at 220.98 71.12)
+		(uuid "2bd34ba8-b28b-4db7-a4be-f417b3e8b713")
+	)
+	(no_connect
+		(at 220.98 59.69)
+		(uuid "324c569f-6d57-4a1e-b592-0183dc66a769")
 	)
 	(no_connect
 		(at 31.75 55.88)
@@ -2920,6 +2932,14 @@
 	(no_connect
 		(at 62.23 146.05)
 		(uuid "402d4cf7-7131-4cf0-8a2e-d9b4f4c0e880")
+	)
+	(no_connect
+		(at 220.98 63.5)
+		(uuid "59b3ecf0-623b-409d-bf80-f1db805df102")
+	)
+	(no_connect
+		(at 198.12 57.15)
+		(uuid "6573af28-3fbb-451e-af93-f1f60cf8db65")
 	)
 	(no_connect
 		(at 31.75 50.8)
@@ -2946,8 +2966,16 @@
 		(uuid "bfd99d20-b5d3-41b2-9057-0636573d8aa4")
 	)
 	(no_connect
+		(at 198.12 67.31)
+		(uuid "c0a5eeda-ae34-4619-a678-b66047cdee39")
+	)
+	(no_connect
 		(at 31.75 53.34)
 		(uuid "c8c8f4a8-c74b-4d4e-8934-6e7346f93820")
+	)
+	(no_connect
+		(at 198.12 54.61)
+		(uuid "d113b10e-409c-4671-af85-300d36be859f")
 	)
 	(no_connect
 		(at 102.87 146.05)
@@ -4905,7 +4933,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03e28505-5d63-4187-a15b-ee159819160e")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR0104"
 			(at 82.55 179.07 0)
 			(effects
 				(font
@@ -4955,7 +4983,7 @@
 		(instances
 			(project "PROJECTE_CASTRO_RIBAS"
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/c7bfedf3-33ba-455f-a470-83e81ef64913"
-					(reference "#PWR02")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -5523,7 +5551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29cbc926-c01d-4991-8607-2808196f5ded")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR0103"
 			(at 118.11 135.89 0)
 			(effects
 				(font
@@ -5573,7 +5601,7 @@
 		(instances
 			(project "PROJECTE_CASTRO_RIBAS"
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/c7bfedf3-33ba-455f-a470-83e81ef64913"
-					(reference "#PWR04")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -5856,7 +5884,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "336ab357-b317-408e-8e90-c20d68250bc9")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR0102"
 			(at 118.11 143.51 0)
 			(effects
 				(font
@@ -5906,7 +5934,7 @@
 		(instances
 			(project "PROJECTE_CASTRO_RIBAS"
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/c7bfedf3-33ba-455f-a470-83e81ef64913"
-					(reference "#PWR03")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -5988,7 +6016,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3bcdfce0-5ffa-4ee4-b0ee-d24bf6640ab2")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR0101"
 			(at 92.71 102.87 0)
 			(effects
 				(font
@@ -6038,7 +6066,7 @@
 		(instances
 			(project "PROJECTE_CASTRO_RIBAS"
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/c7bfedf3-33ba-455f-a470-83e81ef64913"
-					(reference "#PWR01")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -6211,7 +6239,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e2a7b1f-f62c-4dd6-a3f9-db88c24e746d")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR0107"
 			(at 35.56 53.34 0)
 			(effects
 				(font
@@ -6261,7 +6289,7 @@
 		(instances
 			(project "PROJECTE_CASTRO_RIBAS"
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/c7bfedf3-33ba-455f-a470-83e81ef64913"
-					(reference "#PWR08")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -6342,7 +6370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "608ecc9e-2f75-48d9-b9e6-459796265d9a")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR0106"
 			(at 82.55 73.66 0)
 			(effects
 				(font
@@ -6392,7 +6420,7 @@
 		(instances
 			(project "PROJECTE_CASTRO_RIBAS"
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/c7bfedf3-33ba-455f-a470-83e81ef64913"
-					(reference "#PWR05")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -7294,7 +7322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdd0dc2b-6290-490a-833e-4b3ee68f0a32")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR0105"
 			(at 100.33 50.8 0)
 			(effects
 				(font
@@ -7344,7 +7372,7 @@
 		(instances
 			(project "PROJECTE_CASTRO_RIBAS"
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/c7bfedf3-33ba-455f-a470-83e81ef64913"
-					(reference "#PWR07")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -7574,7 +7602,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd4b1c6d-a858-41ab-8797-bb9bb67a34a7")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR0108"
 			(at 69.85 68.58 0)
 			(effects
 				(font
@@ -7624,7 +7652,7 @@
 		(instances
 			(project "PROJECTE_CASTRO_RIBAS"
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/c7bfedf3-33ba-455f-a470-83e81ef64913"
-					(reference "#PWR06")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)

@@ -1732,7 +1732,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "09c1456c-4e21-406d-90c1-3ec6f4b1c989")
-		(property "Reference" "D_Zener_Proteccio"
+		(property "Reference" "D_Zener_Proteccio1"
 			(at 45.974 55.626 90)
 			(effects
 				(font
@@ -1786,7 +1786,7 @@
 		(instances
 			(project ""
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/ec53bbba-b928-4ac3-a14f-8fa23a3d226d"
-					(reference "D_Zener_Proteccio")
+					(reference "D_Zener_Proteccio1")
 					(unit 1)
 				)
 			)
@@ -2071,7 +2071,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c72d3a0-c0e3-4d6c-8f9c-8ed4d21c67e4")
-		(property "Reference" "D_Proteccio"
+		(property "Reference" "D_Proteccio1"
 			(at 52.07 45.72 0)
 			(effects
 				(font
@@ -2141,7 +2141,7 @@
 		(instances
 			(project ""
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/ec53bbba-b928-4ac3-a14f-8fa23a3d226d"
-					(reference "D_Proteccio")
+					(reference "D_Proteccio1")
 					(unit 1)
 				)
 			)
@@ -2354,7 +2354,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6be11016-596b-49a6-b532-3a653f25fb03")
-		(property "Reference" "L_DCDC"
+		(property "Reference" "L_DCDC1"
 			(at 144.78 59.182 90)
 			(effects
 				(font
@@ -2406,7 +2406,7 @@
 		(instances
 			(project ""
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/ec53bbba-b928-4ac3-a14f-8fa23a3d226d"
-					(reference "L_DCDC")
+					(reference "L_DCDC1")
 					(unit 1)
 				)
 			)
@@ -2488,7 +2488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f97ebe7-40a4-43de-9742-8ad2daf11457")
-		(property "Reference" "Cout_DCDC"
+		(property "Reference" "Cout_DCDC1"
 			(at 158.75 59.6899 0)
 			(effects
 				(font
@@ -2542,7 +2542,7 @@
 		(instances
 			(project ""
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/ec53bbba-b928-4ac3-a14f-8fa23a3d226d"
-					(reference "Cout_DCDC")
+					(reference "Cout_DCDC1")
 					(unit 1)
 				)
 			)
@@ -2702,7 +2702,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bd742788-4c0e-46c3-9249-0831f67aac9a")
-		(property "Reference" "D_schottky_DCDC"
+		(property "Reference" "D_schottky_DCDC1"
 			(at 120.396 63.754 90)
 			(effects
 				(font
@@ -2756,7 +2756,7 @@
 		(instances
 			(project ""
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/ec53bbba-b928-4ac3-a14f-8fa23a3d226d"
-					(reference "D_schottky_DCDC")
+					(reference "D_schottky_DCDC1")
 					(unit 1)
 				)
 			)
@@ -2772,7 +2772,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4860cdc-2737-4946-b4e4-5106eadf4004")
-		(property "Reference" "Cin_DCDC"
+		(property "Reference" "Cin_DCDC1"
 			(at 83.82 54.6099 0)
 			(effects
 				(font
@@ -2826,7 +2826,7 @@
 		(instances
 			(project ""
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/ec53bbba-b928-4ac3-a14f-8fa23a3d226d"
-					(reference "Cin_DCDC")
+					(reference "Cin_DCDC1")
 					(unit 1)
 				)
 			)
@@ -2842,7 +2842,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4b8f0b0-ac1a-4b64-b4c3-e413f1238b32")
-		(property "Reference" "Cout_reg"
+		(property "Reference" "Cout_reg1"
 			(at 209.55 59.6899 0)
 			(effects
 				(font
@@ -2896,7 +2896,7 @@
 		(instances
 			(project ""
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/ec53bbba-b928-4ac3-a14f-8fa23a3d226d"
-					(reference "Cout_reg")
+					(reference "Cout_reg1")
 					(unit 1)
 				)
 			)
@@ -2912,7 +2912,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8983f56-cf60-43f9-b340-fc276b71bedc")
-		(property "Reference" "Cin_reg"
+		(property "Reference" "Cin_reg1"
 			(at 176.53 59.9439 0)
 			(effects
 				(font
@@ -2966,7 +2966,7 @@
 		(instances
 			(project ""
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/ec53bbba-b928-4ac3-a14f-8fa23a3d226d"
-					(reference "Cin_reg")
+					(reference "Cin_reg1")
 					(unit 1)
 				)
 			)
