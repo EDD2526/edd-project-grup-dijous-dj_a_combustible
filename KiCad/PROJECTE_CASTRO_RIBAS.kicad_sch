@@ -53,7 +53,7 @@
 		)
 		(uuid "7b9732c7-811d-4a0b-b793-949b95b9dee9")
 	)
-	(text "POTÈNCIA"
+	(text "ALIMENTACIÓ"
 		(exclude_from_sim no)
 		(at 77.216 51.308 0)
 		(effects
@@ -230,7 +230,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "ec53bbba-b928-4ac3-a14f-8fa23a3d226d")
-		(property "Sheetname" "ETAPA_POTENCIA"
+		(property "Sheetname" "ETAPA_ALIMENTACIO"
 			(at 36.83 25.9584 0)
 			(effects
 				(font
