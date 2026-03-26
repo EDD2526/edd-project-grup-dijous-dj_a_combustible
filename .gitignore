@@ -14,7 +14,8 @@ fp-info-cache
 *.bak
 *.kicad_pcb-bak
 *.kicad_sch-bak
-*_autosave-*
+*auto_saved_files*
+
 
 # --- FITXERS DE SORTIDA (GENERATS) ---
 # Gerbers, llistats de materials i fitxers de trepant
