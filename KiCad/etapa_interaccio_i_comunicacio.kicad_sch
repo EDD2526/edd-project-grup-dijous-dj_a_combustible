@@ -1276,7 +1276,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2974e01e-1974-43ed-81d4-b359e03a4e27")
-		(property "Reference" "R5"
+		(property "Reference" "R20"
 			(at 111.76 72.3899 0)
 			(effects
 				(font
@@ -1330,7 +1330,7 @@
 		(instances
 			(project "PROJECTE_CASTRO_RIBAS"
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/2ae4c977-7e45-4d92-9ae0-450b29246e42"
-					(reference "R5")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -1623,7 +1623,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c703a243-ddef-4751-afa5-a49a342ba0f6")
-		(property "Reference" "R7"
+		(property "Reference" "R22"
 			(at 187.96 78.74 90)
 			(effects
 				(font
@@ -1675,7 +1675,7 @@
 		(instances
 			(project "PROJECTE_CASTRO_RIBAS"
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/2ae4c977-7e45-4d92-9ae0-450b29246e42"
-					(reference "R7")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -1691,7 +1691,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce0d3fc4-bdae-4c44-aab9-2ed5ba58726a")
-		(property "Reference" "R8"
+		(property "Reference" "R23"
 			(at 189.23 101.6 90)
 			(effects
 				(font
@@ -1743,7 +1743,7 @@
 		(instances
 			(project "PROJECTE_CASTRO_RIBAS"
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/2ae4c977-7e45-4d92-9ae0-450b29246e42"
-					(reference "R8")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -1825,7 +1825,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec7c21e0-6923-483a-9cf4-3341c7e0f6a8")
-		(property "Reference" "R6"
+		(property "Reference" "R21"
 			(at 111.76 96.5199 0)
 			(effects
 				(font
@@ -1879,7 +1879,7 @@
 		(instances
 			(project "PROJECTE_CASTRO_RIBAS"
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/2ae4c977-7e45-4d92-9ae0-450b29246e42"
-					(reference "R6")
+					(reference "R21")
 					(unit 1)
 				)
 			)
