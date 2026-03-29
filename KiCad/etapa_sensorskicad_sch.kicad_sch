@@ -944,8 +944,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U1"
-				(at 0.254 7.366 0)
+			(property "Reference" "U6"
+				(at -1.27 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -953,7 +953,7 @@
 				)
 			)
 			(property "Value" "FDC2214"
-				(at -0.254 5.08 0)
+				(at -1.27 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -989,7 +989,7 @@
 			)
 			(symbol "FDC2214_0_1"
 				(rectangle
-					(start -8.89 2.54)
+					(start -8.89 3.81)
 					(end 6.35 -27.94)
 					(stroke
 						(width 0)
@@ -1138,24 +1138,6 @@
 						)
 					)
 					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -1.27 -29.21 90)
-					(length 2.54)
-					(name "DAP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2659,6 +2641,18 @@
 		)
 		(uuid "294edabc-74fa-48d4-937f-782e22b871cc")
 	)
+	(text "Els pins diria que estan mal posats i el \nfootprint no pot ser 24 si té 25 pins.\nA més en el datasheet surten 24 pins"
+		(exclude_from_sim no)
+		(at 125.73 118.872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "41485c4d-ea3b-4481-ae77-a110ed0b86dc")
+	)
 	(text "Sensors amb connectors genèrics"
 		(exclude_from_sim no)
 		(at 91.44 21.59 0)
@@ -2670,6 +2664,18 @@
 			)
 		)
 		(uuid "5fe41db9-ea8b-41f2-8f6c-13364d65976f")
+	)
+	(text "REVISAR PINS!!\nI footprint"
+		(exclude_from_sim no)
+		(at 126.238 105.41 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "6d259457-0577-4265-8b2e-6035c04174e1")
 	)
 	(text "Control de Bomba\ni Tancament del Dipòsit\nmitjançant MOSFETs"
 		(exclude_from_sim no)
@@ -3259,16 +3265,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 80.01) (xy 40.64 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b929696-e4ce-4c39-a48d-6f7f5feacbbd")
-	)
-	(wire
-		(pts
 			(xy 250.19 78.74) (xy 247.65 78.74)
 		)
 		(stroke
@@ -3837,6 +3833,21 @@
 				(justify right)
 				(hide yes)
 			)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 93.98 29.21) (xy 156.21 29.21) (xy 157.48 30.48) (xy 157.48 109.22) (xy 93.98 109.22)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 2d206ae7-3a99-4501-a4f8-c36eedb7e8d4)
 		)
 	)
 	(symbol
@@ -4416,7 +4427,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DFN_QFN:MPS_QFN-16_3x3mm_P0.5mm"
 			(at 41.91 50.8 0)
 			(effects
 				(font
@@ -4481,9 +4492,6 @@
 		)
 		(pin "7"
 			(uuid "ce6a476c-96fc-483b-9f45-68f5626400e9")
-		)
-		(pin "17"
-			(uuid "0512dc9f-870a-4b78-b95f-4d57dd9df10d")
 		)
 		(pin "12"
 			(uuid "3eb2ec14-904c-44d9-9ba2-f21eb7a82d96")
@@ -4594,71 +4602,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 40.64 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3140bbd2-e2e7-4b4a-96d8-95ccbfb7f48b")
-		(property "Reference" "#PWR0112"
-			(at 40.64 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 40.64 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "acaf3663-576b-4f77-9339-377ac3eb512f")
-		)
-		(instances
-			(project "PROJECTE_CASTRO_RIBAS"
-				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/214c85b5-e11a-40fa-b086-a325260ddb4b"
-					(reference "#PWR0112")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:IRLIZ44N")
 		(at 205.74 92.71 0)
 		(unit 1)
@@ -4758,7 +4701,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N007"
+		(property "Value" "1N4007"
 			(at 200.66 56.388 0)
 			(effects
 				(font
@@ -5198,7 +5141,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "875c224a-0aa7-4826-822c-e92f2942ffe8")
-		(property "Reference" "Q1"
+		(property "Reference" "MOSFET_controltancament1"
 			(at 213.36 152.3999 0)
 			(effects
 				(font
@@ -5258,7 +5201,7 @@
 		(instances
 			(project ""
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/214c85b5-e11a-40fa-b086-a325260ddb4b"
-					(reference "Q1")
+					(reference "MOSFET_controltancament1")
 					(unit 1)
 				)
 			)
@@ -5420,7 +5363,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N007"
+		(property "Value" "1N4007"
 			(at 201.93 118.618 0)
 			(effects
 				(font

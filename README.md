@@ -35,6 +35,7 @@ Bona connexió amb el vehicle per a que altres unitats de control tinguin accès
   **Etapa 3, Sensors i Potència dels motors**
   Etapa destinada a agafar informació a través del sensor de pressió de pneumàtics i del sensor de nivell de combustible.
   A més gràcies a les sortides digitals del micro, MOSFETs i relés, es controlarà de manera segura l'activació o desactivació de la bomba de combustible i l'obriment o tancament del dipòsit.
+
   **Etapa 4, Interacció i comunicació**
   Aquesta última etapa simplement serveix per a activar o desactivar els motors de la bomba o del tancament.
   Mitjançant botons i LEDs (per demostrar el correcte funcionament) es realitzarà aquestes dues funcions.
@@ -123,3 +124,15 @@ A la tarda d'avui, només queda (de moment) crear el símbol del sensor de press
 **Esquemàtic acabat** abans de l'última sessió (a falta de les correccions que es faràn demà a classe).
 S'ha continuat fent el Readme on s'han anat emplenant diferents apartats.
 A banda d'això s'hauria d'**anar triant les petjades**, sobretot pels símbols que hem creat nosaltres o els que no estem acostumats a treballar, ja que per components passius o que ja hem tocat, les petjades suposem que seran les mateixes i que no les haurem de crear ni afegir al KiCad
+
+
+### 29/03/2026
+La **majoria de petjades s'han afegit**. Tots els components que no son resistències o capacitats ja tenen **petjada**.
+Falta **mirar** els **pins FXTH87** ja que els pins possiblement estiguin **mal posats** i el **footprint no coincideixi** i falta repassar el propi datasheet per saber quin footprint triar.
+*Altres footprints que falten:*
+Cristall
+Connectors 1x2 i 1x5
+Díodes
+Bobines
+Resistències i Capacitats
+També s'hauràn d'afegir les petjades i datasheets al README

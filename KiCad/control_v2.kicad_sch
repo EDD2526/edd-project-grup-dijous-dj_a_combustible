@@ -5218,7 +5218,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f1addf7-9357-470c-91e0-6b6a897a4caa")
-		(property "Reference" "e"
+		(property "Reference" "U20"
 			(at 212.09 59.182 90)
 			(effects
 				(font
@@ -5353,7 +5353,7 @@
 		(instances
 			(project ""
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/c7bfedf3-33ba-455f-a470-83e81ef64913"
-					(reference "e")
+					(reference "U20")
 					(unit 1)
 				)
 			)
