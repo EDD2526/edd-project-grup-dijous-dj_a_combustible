@@ -63,7 +63,7 @@
 			)
 		)
 		(symbol "FXTH87_1_1"
-			(pin input line
+			(pin bidirectional line
 				(at -16.51 6.35 0)
 				(length 2.54)
 				(name "PTB1"
@@ -81,7 +81,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -16.51 3.81 0)
 				(length 2.54)
 				(name "PTA2"
@@ -99,7 +99,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -16.51 1.27 0)
 				(length 2.54)
 				(name "PTA1"
@@ -117,7 +117,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -16.51 -1.27 0)
 				(length 2.54)
 				(name "PTA0"
@@ -189,7 +189,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -6.35 -13.97 90)
 				(length 2.54)
 				(name "VDD"
@@ -225,7 +225,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -3.81 -13.97 90)
 				(length 2.54)
 				(name "VDDA"
@@ -333,7 +333,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 3.81 -13.97 90)
 				(length 2.54)
 				(name "RF"
@@ -369,7 +369,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_out line
 				(at 6.35 -13.97 90)
 				(length 2.54)
 				(name "VREG"
@@ -387,7 +387,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 16.51 6.35 180)
 				(length 2.54)
 				(name "PTA3"
@@ -397,7 +397,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -441,7 +441,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 16.51 -1.27 180)
 				(length 2.54)
 				(name "BKGD/PTA4"
