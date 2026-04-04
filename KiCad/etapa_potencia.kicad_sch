@@ -5671,7 +5671,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c099af44-df74-4f4f-9ca6-46798fe6bc61")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0112"
 			(at 58.42 138.43 0)
 			(effects
 				(font
@@ -5721,7 +5721,7 @@
 		(instances
 			(project "PROJECTE_CASTRO_RIBAS"
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/ec53bbba-b928-4ac3-a14f-8fa23a3d226d"
-					(reference "#PWR?")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -6078,7 +6078,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6276a2d-1194-458f-9ae7-4dd5554f68b8")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0114"
 			(at 59.69 198.12 0)
 			(effects
 				(font
@@ -6128,7 +6128,7 @@
 		(instances
 			(project "PROJECTE_CASTRO_RIBAS"
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/ec53bbba-b928-4ac3-a14f-8fa23a3d226d"
-					(reference "#PWR?")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
