@@ -136,3 +136,10 @@ Díodes
 Bobines
 Resistències i Capacitats
 També s'hauràn d'afegir les petjades i datasheets al README
+
+
+
+### 04/04/2026
+**Totes les petjades afegides**
+Sensor de pressió acabat
+**Esquemàtic acabat (en teoria)**
