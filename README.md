@@ -52,30 +52,41 @@ Bona connexió amb el vehicle per a que altres unitats de control tinguin accès
 
 ## Components
 
-| Descripci&#243; | Ref | Package |Datasheet | Prove&#239;dor | Preu | Unitats |
-| --- | --- | --- | --- | ---| --- | --- |
-| Microcontrolador 16-bit | U3 | - | - | | | 1x |
-| Relé SPST-NO (6A) | K1, K2 | Vertical THT | - | | | 2x |
-| MOSFET N-Channel | MOSFET_controlbomba1, Q1 | TO-220F-3 | [Datasheet](https://datasheet.octopart.com/IRLIZ44N-International-Rectifier-datasheet-8563198.pdf)) | | | 2x |
-| Regulador Voltage 3.3V | U2 | TO-252-3 | [Datasheet](http://www.ti.com/lit/ds/symlink/lm1117.pdf) | | | 1x |
-| Regulador Step-Down 12V | U1 | TO-220-5 | [Datasheet](http://www.ti.com/lit/ds/symlink/lm2596.pdf) | | | 1x |
-| Transceptor CAN | U2 | SOIC-8 | [Datasheet](http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf) | | | 1x |
-| Driver RS232 | U1 | - | [Datasheet](https://datasheets.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf) | | | 1x |
-| Díode Rectificador  | D_proteccio_bomba1, 2 | 1N4007 | - | | | 2x |
-| Díode Schottky | D_schottky_DCDC1 | 1N5824 | - | | | 1x |
-| Díode Zener 14V | D_Zener_Proteccio1 | - | - | | | 1x |
-| Cristal de Quars | Y1 | - | - | | | 1x |
-| Pulsador SW | SW1, SW2 | - | - | | | 2x |
-| Connector DE9 Pins | J1, J2 | - | - | | | 2x |
-| Connector Bomba/Tanc. | Connector_Bomba1, Connector_Tancament1 | Pin Header | - | | | 2x |
-| Inductor 33uH | L_DCDC1 | - | - | | | 1x |
-| Condensador 680uF | Cin_DCDC1 | - | - | | | 1x |
-| Condensador 220uF | Cout_DCDC1 | - | - | | | 1x |
-| Condensador 100uF | Cout_reg1 | - | - | | | 1x |
-| Condensadors 100n | C1,C2,C3,C4,C5,C6,C8,C9 | - | - | | | 8x |
-| Resistència 10k | R1, R5, R6 | - | - | | | 3x |
-| Resistència 4.7k | R3, R4 | - | - | | | 2x |
-| Resistència 220 | R7, R8 | - | - | | | 2x |
+| Descripció | Ref | Package | Datasheet | Proveïdor | Preu | Unitats |
+| --- | --- | --- | --- | --- | --- | --- |
+| **Microcontrolador PIC24 (16-bit)** | U20 | SOIC-28W | [Datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/70293G.pdf) | - | - | 1x |
+| **Sensor de Pressió (TPMS)** | U23 | QFN-24-1EP | [Datasheet](https://www.nxp.com/docs/en/reference-manual/FXTH87ERM.pdf) | - | - | 1x |
+| **Sensor Capacitiu (Combustible)** | U6 | QFN-16 | [Datasheet](https://www.ti.com/lit/ds/symlink/fdc2214.pdf) | - | - | 1x |
+| **Relé SPST-NO (6A)** | K1, K2 | Vertical THT | [Datasheet](https://www.fujitsu.com/sg/imagesgig5/ftr-ly.pdf) | - | - | 2x |
+| **MOSFET N-Channel** | Q1, Q2 | TO-220F-3 | [Datasheet](http://www.irf.com/product-info/datasheets/data/irliz44n.pdf) | - | - | 2x |
+| **Regulador Step-Down 12V** | U1 | TO-263-5 | [Datasheet](http://www.ti.com/lit/ds/symlink/lm2596.pdf) | - | - | 1x |
+| **Regulador LDO 3.3V** | U2 | TO-252-3 | [Datasheet](http://www.ti.com/lit/ds/symlink/lm1117.pdf) | - | - | 1x |
+| **Transceptor CAN** | U3 | SOIC-8 | [Datasheet](http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf) | - | - | 1x |
+| **Driver RS232** | U4 | SOIC-16 | [Datasheet](https://datasheets.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf) | - | - | 1x |
+| **Díode Rectificador (Flyback)** | D_p_bomba1, 2 | DO-41 THT | [Datasheet](http://www.vishay.com/docs/88503/1n4001.pdf) | - | - | 2x |
+| **Díode Schottky (DCDC)** | D_schottky1 | D_SMA | - | [Datasheet](https://ww1.microchip.com/downloads/aemdocuments/documents/HRDS/ProductDocuments/DataSheets/1n5823-25.pdf) | - | 1x |
+| **Díode Zener 14V** | D_Zener1 | D_SOD-123 | - | - | - | 1x |
+| **Díode Protecció (MBR0520)** | D_Proteccio1 | D_SOD-123 | [Datasheet](http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf) | - | - | 1x |
+| **Cristall de Quars** | Y1 | SMD 5032-2 | - | - | - | 1x |
+| **LED Indicador (3mm)** | D1, D2 | LED_D3.0mm | - | - | - | 2x |
+| **Pulsadors (Slide/DIP)** | SW1, SW2, SW3 | SMD DIP | - | - | - | 3x |
+| **Connector DB9 (RS232)** | J1, J2 | DSUB-9 | - | - | - | 2x |
+| **Connectors Bomba/Tancament** | J4, B1, T1 | Pin 1x02 | - | - | - | 3x |
+| **Connector Prog. PIC (ICSP)** | J3 | Pin 1x05 | - | - | - | 1x |
+| **Connector Prog. Sensor (BKGD)** | J5 | Pin 1x04 | - | - | - | 1x |
+| **Inductor 33uH (DCDC)** | L_DCDC1 | SRP7028A | - | - | - | 1x |
+| **Inductor 18uH (Filtre)** | L1 | L_0805 | - | - | - | 1x |
+| **Ferrite Bead** | FB1, FB2 | L_1812 | - | - | - | 2x |
+| **Condensador 680uF** | Cin_DCDC1 | Radial D10mm | - | - | - | 1x |
+| **Condensador 220uF** | Cout_DCDC1 | Radial D10mm | - | - | - | 1x |
+| **Condensador 100uF** | Cout_reg1 | Radial D5mm | - | - | - | 1x |
+| **Condensadors 10uF** | C7, Cin_reg1 | C_0805 | - | [Datasheet](https://datasheets.kyocera-avx.com/AutoMLCC.pdf) | - | 2x |
+| **Condensadors 100nF** | C1-C9, C32-33 | C_0805 | - | [Datasheet](https://datasheets.kyocera-avx.com/AutoMLCC.pdf) | - | 10x |
+| **Condensadors 22p / 33p** | C10, C11, C20 | C_0805 | - | [Datasheet](https://datasheets.kyocera-avx.com/AutoMLCC.pdf) | - | 3x |
+| **Resistència 10k** | R1-R21 (varies) | R_0805 | - | [Datasheet](https://www.vishay.com/docs/20035/dcrcwe3.pdf) | - | 7x |
+| **Resistència 4.7k** | R3, R4 | R_0805 | - | [Datasheet](https://www.vishay.com/docs/20035/dcrcwe3.pdf) | - | 2x |
+| **Resistència 220** | R22, R23 | R_0805 | - | [Datasheet](https://www.vishay.com/docs/20035/dcrcwe3.pdf) | - | 2x |
+| **Resistència 120 (CAN)** | R_CAN1 | R_0805 | [Datasheet](https://www.vishay.com/docs/20035/dcrcwe3.pdf) | - | - | 1x |
 
 -----------
 
@@ -99,7 +110,7 @@ Bona connexió amb el vehicle per a que altres unitats de control tinguin accès
 
 ## Historial de canvis
 ### 15/03/2026
-He millorat el diagrama de blocs, tant l'etapa 1 com la 3.
+Hem millorat el diagrama de blocs, tant l'etapa 1 com la 3.
 A més he fet que les fletxes siguin més gruixudes per tal que es vegin millor.
 Al KiCad he obert l'esquemàtic i he **creat els subesquemàtics**, en els quals només he posat els noms de les etapes 1 i 3.
 I he fet una **carpeta** per anar posant les millores dels **diagràmes de **blocs**.
@@ -142,4 +153,5 @@ També s'hauràn d'afegir les petjades i datasheets al README
 ### 04/04/2026
 **Totes les petjades afegides**
 Sensor de pressió acabat
+Falta posar les petjades al readme
 **Esquemàtic acabat (en teoria)**
