@@ -65,7 +65,7 @@ Bona connexió amb el vehicle per a que altres unitats de control tinguin accès
 | **Transceptor CAN** | U3 | SOIC-8 | [Datasheet](http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf) | - | - | 1x |
 | **Driver RS232** | U4 | SOIC-16 | [Datasheet](https://datasheets.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf) | - | - | 1x |
 | **Díode Rectificador (Flyback)** | D_p_bomba1, 2 | DO-41 THT | [Datasheet](http://www.vishay.com/docs/88503/1n4001.pdf) | - | - | 2x |
-| **Díode Schottky (DCDC)** | D_schottky1 | D_SMA | - | [Datasheet](https://ww1.microchip.com/downloads/aemdocuments/documents/HRDS/ProductDocuments/DataSheets/1n5823-25.pdf) | - | 1x |
+| **Díode Schottky (DCDC)** | D_schottky1 | D_SMA | [Datasheet](https://ww1.microchip.com/downloads/aemdocuments/documents/HRDS/ProductDocuments/DataSheets/1n5823-25.pdf) | - | - | 1x |
 | **Díode Zener 14V** | D_Zener1 | D_SOD-123 | [Datasheet](https://www.mouser.es/datasheet/3/225/1/SMBJ5338B-SMBJ5388B(SMB).pdf) | - | - | 1x |
 | **Díode Protecció (MBR0520)** | D_Proteccio1 | D_SOD-123 | [Datasheet](http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf) | - | - | 1x |
 | **Cristall de Quars** | Y1 | SMD 5032-2 | [Datasheet](https://www.mouser.es/datasheet/3/294/1/ecx_53r.pdf) | - | - | 1x |
