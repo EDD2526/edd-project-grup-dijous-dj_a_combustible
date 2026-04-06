@@ -82,7 +82,7 @@ Bona connexió amb el vehicle per a que altres unitats de control tinguin accès
 | **Condensador 220uF** | Cout_DCDC1 | Radial D10mm |  [Datasheet](https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1259.pdf) | - | - | 1x |
 | **Condensador 100uF** | Cout_reg1 | Radial D5mm |  [Datasheet](https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1259.pdf) | - | - | 1x |
 | **Condensadors 10uF** | C7, Cin_reg1 | C_0805 | [Datasheet](https://datasheets.kyocera-avx.com/AutoMLCC.pdf) | - | - | 2x |
-| **Condensadors 100nF** | C1-C9, C32-33 | C_0805 | - | [Datasheet](https://datasheets.kyocera-avx.com/AutoMLCC.pdf) | - | 10x |
+| **Condensadors 100nF** | C1-C9, C32-33 | C_0805 | [Datasheet](https://datasheets.kyocera-avx.com/AutoMLCC.pdf) | - | - | 10x |
 | **Condensadors 22p / 33p** | C10, C11, C20 | C_0805 | [Datasheet](https://datasheets.kyocera-avx.com/AutoMLCC.pdf) | - | - | 3x |
 | **Resistència 10k** | R1-R21 (varies) | R_0805 | [Datasheet](https://www.vishay.com/docs/20035/dcrcwe3.pdf) | - | - | 7x |
 | **Resistència 4.7k** | R3, R4 | R_0805 | [Datasheet](https://www.vishay.com/docs/20035/dcrcwe3.pdf) | - | - | 2x |
