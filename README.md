@@ -46,7 +46,8 @@ Bona connexió amb el vehicle per a que altres unitats de control tinguin accès
 
   * Alimentació; 12V, regulada 5V i 3.3V
   * Microcontrolador PIC24HJ128GP502
-  * ...
+  * Sensor de Pressió: FXTH87
+  * Sensor de COmbustible: FDC2214
 
 -----------
 
@@ -65,27 +66,27 @@ Bona connexió amb el vehicle per a que altres unitats de control tinguin accès
 | **Driver RS232** | U4 | SOIC-16 | [Datasheet](https://datasheets.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf) | - | - | 1x |
 | **Díode Rectificador (Flyback)** | D_p_bomba1, 2 | DO-41 THT | [Datasheet](http://www.vishay.com/docs/88503/1n4001.pdf) | - | - | 2x |
 | **Díode Schottky (DCDC)** | D_schottky1 | D_SMA | - | [Datasheet](https://ww1.microchip.com/downloads/aemdocuments/documents/HRDS/ProductDocuments/DataSheets/1n5823-25.pdf) | - | 1x |
-| **Díode Zener 14V** | D_Zener1 | D_SOD-123 | - | - | - | 1x |
+| **Díode Zener 14V** | D_Zener1 | D_SOD-123 | [Datasheet](https://www.mouser.es/datasheet/3/225/1/SMBJ5338B-SMBJ5388B(SMB).pdf) | - | - | 1x |
 | **Díode Protecció (MBR0520)** | D_Proteccio1 | D_SOD-123 | [Datasheet](http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf) | - | - | 1x |
-| **Cristall de Quars** | Y1 | SMD 5032-2 | - | - | - | 1x |
-| **LED Indicador (3mm)** | D1, D2 | LED_D3.0mm | - | - | - | 2x |
-| **Pulsadors (Slide/DIP)** | SW1, SW2, SW3 | SMD DIP | - | - | - | 3x |
-| **Connector DB9 (RS232)** | J1, J2 | DSUB-9 | - | - | - | 2x |
-| **Connectors Bomba/Tancament** | J4, B1, T1 | Pin 1x02 | - | - | - | 3x |
-| **Connector Prog. PIC (ICSP)** | J3 | Pin 1x05 | - | - | - | 1x |
-| **Connector Prog. Sensor (BKGD)** | J5 | Pin 1x04 | - | - | - | 1x |
-| **Inductor 33uH (DCDC)** | L_DCDC1 | SRP7028A | - | - | - | 1x |
-| **Inductor 18uH (Filtre)** | L1 | L_0805 | - | - | - | 1x |
-| **Ferrite Bead** | FB1, FB2 | L_1812 | - | - | - | 2x |
-| **Condensador 680uF** | Cin_DCDC1 | Radial D10mm | - | - | - | 1x |
-| **Condensador 220uF** | Cout_DCDC1 | Radial D10mm | - | - | - | 1x |
-| **Condensador 100uF** | Cout_reg1 | Radial D5mm | - | - | - | 1x |
-| **Condensadors 10uF** | C7, Cin_reg1 | C_0805 | - | [Datasheet](https://datasheets.kyocera-avx.com/AutoMLCC.pdf) | - | 2x |
+| **Cristall de Quars** | Y1 | SMD 5032-2 | [Datasheet](https://www.mouser.es/datasheet/3/294/1/ecx_53r.pdf) | - | - | 1x |
+| **LED Indicador (3mm)** | D1, D2 | LED_D3.0mm | [Datasheet](https://www.mouser.es/datasheet/3/308/1/WP710A10GD.pdf) | - | - | 2x |
+| **Pulsadors (Slide/DIP)** | SW1, SW2, SW3 | SMD DIP | [Datasheet](https://www.mouser.es/datasheet/3/6118/1/slw-166261-4a-ra-n-d.pdf) | - | - | 3x |
+| **Connector DB9 (RS232)** | J1, J2 | DSUB-9 | [Datahseet](https://www.mouser.es/datasheet/3/59/2/CN_DSUB9SKT00.pdf) | - | - | 2x |
+| **Connectors Bomba/Tancament** | J4, B1, T1 | Pin 1x02 | [Datasheet](https://www.we-online.com/components/products/datasheet/61300211121.pdf) | - | - | 3x |
+| **Connector Prog. PIC (ICSP)** | J3 | Pin 1x05 | [Datasheet](https://www.we-online.com/components/products/datasheet/61300211121.pdf) | - | - | 1x |
+| **Connector Prog. Sensor (BKGD)** | J5 | Pin 1x04 | [Datasheet](https://www.we-online.com/components/products/datasheet/61300211121.pdf) | - | - | 1x |
+| **Inductor 33uH (DCDC)** | L_DCDC1 | SRP7028A | [Datasheet](https://www.bourns.com/docs/product-datasheets/srp7028a.pdf) | - | - | 1x |
+| **Inductor 18uH (Filtre)** | L1 | L_0805 | [Datasheet](https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_decoupling_mlz2012_en.pdf) | - | - | 1x |
+| **Ferrite Bead** | FB1, FB2 | L_1812 | [Datasheet](https://www.we-online.com/components/products/datasheet/7427922.pdf) | - | - | 2x |
+| **Consador 680uF** | Cin_DCDC1 | Radial D10mm | [Datasheet](https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1259.pdf) | - | - | 1x |
+| **Condensador 220uF** | Cout_DCDC1 | Radial D10mm |  [Datasheet](https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1259.pdf) | - | - | 1x |
+| **Condensador 100uF** | Cout_reg1 | Radial D5mm |  [Datasheet](https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1259.pdf) | - | - | 1x |
+| **Condensadors 10uF** | C7, Cin_reg1 | C_0805 | [Datasheet](https://datasheets.kyocera-avx.com/AutoMLCC.pdf) | - | - | 2x |
 | **Condensadors 100nF** | C1-C9, C32-33 | C_0805 | - | [Datasheet](https://datasheets.kyocera-avx.com/AutoMLCC.pdf) | - | 10x |
-| **Condensadors 22p / 33p** | C10, C11, C20 | C_0805 | - | [Datasheet](https://datasheets.kyocera-avx.com/AutoMLCC.pdf) | - | 3x |
-| **Resistència 10k** | R1-R21 (varies) | R_0805 | - | [Datasheet](https://www.vishay.com/docs/20035/dcrcwe3.pdf) | - | 7x |
-| **Resistència 4.7k** | R3, R4 | R_0805 | - | [Datasheet](https://www.vishay.com/docs/20035/dcrcwe3.pdf) | - | 2x |
-| **Resistència 220** | R22, R23 | R_0805 | - | [Datasheet](https://www.vishay.com/docs/20035/dcrcwe3.pdf) | - | 2x |
+| **Condensadors 22p / 33p** | C10, C11, C20 | C_0805 | [Datasheet](https://datasheets.kyocera-avx.com/AutoMLCC.pdf) | - | - | 3x |
+| **Resistència 10k** | R1-R21 (varies) | R_0805 | [Datasheet](https://www.vishay.com/docs/20035/dcrcwe3.pdf) | - | - | 7x |
+| **Resistència 4.7k** | R3, R4 | R_0805 | [Datasheet](https://www.vishay.com/docs/20035/dcrcwe3.pdf) | - | - | 2x |
+| **Resistència 220** | R22, R23 | R_0805 | [Datasheet](https://www.vishay.com/docs/20035/dcrcwe3.pdf) | - | - | 2x |
 | **Resistència 120 (CAN)** | R_CAN1 | R_0805 | [Datasheet](https://www.vishay.com/docs/20035/dcrcwe3.pdf) | - | - | 1x |
 
 -----------
@@ -95,7 +96,8 @@ Bona connexió amb el vehicle per a que altres unitats de control tinguin accès
 ### Eines:
 
   * KiCad 9.0 o superior
-  * 
+  * LTspice
+  * Lucid
 
 ### Configuraci&#243; :
 
