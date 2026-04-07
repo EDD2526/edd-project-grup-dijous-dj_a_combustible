@@ -1841,7 +1841,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04592ec8-c69f-484b-8ce8-ab5a9f213fb3")
-		(property "Reference" "K?"
+		(property "Reference" "K2"
 			(at 88.9 118.1099 0)
 			(effects
 				(font
@@ -1903,7 +1903,7 @@
 		(instances
 			(project "PROJECTE_CASTRO_RIBAS"
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/2ae4c977-7e45-4d92-9ae0-450b29246e42"
-					(reference "K?")
+					(reference "K2")
 					(unit 1)
 				)
 			)
@@ -1925,7 +1925,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fec0090-8f46-4cdb-a6be-fd7355867ada")
-		(property "Reference" "K?"
+		(property "Reference" "K1"
 			(at 87.63 54.6099 0)
 			(effects
 				(font
@@ -1987,7 +1987,7 @@
 		(instances
 			(project "PROJECTE_CASTRO_RIBAS"
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/2ae4c977-7e45-4d92-9ae0-450b29246e42"
-					(reference "K?")
+					(reference "K1")
 					(unit 1)
 				)
 			)
@@ -2009,7 +2009,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36b949dc-317e-47be-9c46-0e4429c4bb9f")
-		(property "Reference" "MOSFET_controlbomba?"
+		(property "Reference" "MOSFET_controlbomba1"
 			(at 68.58 82.5499 0)
 			(effects
 				(font
@@ -2069,7 +2069,7 @@
 		(instances
 			(project "PROJECTE_CASTRO_RIBAS"
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/2ae4c977-7e45-4d92-9ae0-450b29246e42"
-					(reference "MOSFET_controlbomba?")
+					(reference "MOSFET_controlbomba1")
 					(unit 1)
 				)
 			)
@@ -2090,7 +2090,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "44aa84eb-2a18-4cd2-9fef-c81ccf739eba")
-		(property "Reference" "D_proteccio_bomba?"
+		(property "Reference" "D_proteccio_bomba1"
 			(at 54.864 42.672 0)
 			(effects
 				(font
@@ -2162,7 +2162,7 @@
 		(instances
 			(project "PROJECTE_CASTRO_RIBAS"
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/2ae4c977-7e45-4d92-9ae0-450b29246e42"
-					(reference "D_proteccio_bomba?")
+					(reference "D_proteccio_bomba1")
 					(unit 1)
 				)
 			)
@@ -2185,7 +2185,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45ad47b4-9f41-4f4a-b60c-6173141279fd")
-		(property "Reference" "Connector_Tancament?"
+		(property "Reference" "Connector_Tancament1"
 			(at 114.3 130.8099 0)
 			(effects
 				(font
@@ -2239,7 +2239,7 @@
 		(instances
 			(project "PROJECTE_CASTRO_RIBAS"
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/2ae4c977-7e45-4d92-9ae0-450b29246e42"
-					(reference "Connector_Tancament?")
+					(reference "Connector_Tancament1")
 					(unit 1)
 				)
 			)
@@ -2262,7 +2262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ffd5d1c-b556-4dbc-964b-b7f749c13342")
-		(property "Reference" "Connector_Bomba?"
+		(property "Reference" "Connector_Bomba1"
 			(at 113.03 67.3099 0)
 			(effects
 				(font
@@ -2316,7 +2316,7 @@
 		(instances
 			(project "PROJECTE_CASTRO_RIBAS"
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/2ae4c977-7e45-4d92-9ae0-450b29246e42"
-					(reference "Connector_Bomba?")
+					(reference "Connector_Bomba1")
 					(unit 1)
 				)
 			)
@@ -2337,7 +2337,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "875c224a-0aa7-4826-822c-e92f2942ffe8")
-		(property "Reference" "MOSFET_controltancament?"
+		(property "Reference" "MOSFET_controltancament1"
 			(at 69.85 143.5099 0)
 			(effects
 				(font
@@ -2397,7 +2397,7 @@
 		(instances
 			(project "PROJECTE_CASTRO_RIBAS"
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/2ae4c977-7e45-4d92-9ae0-450b29246e42"
-					(reference "MOSFET_controltancament?")
+					(reference "MOSFET_controltancament1")
 					(unit 1)
 				)
 			)
@@ -2419,7 +2419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "890a9df4-5afa-491b-8723-6f9e8baae7a7")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0114"
 			(at 77.47 44.45 0)
 			(effects
 				(font
@@ -2469,7 +2469,7 @@
 		(instances
 			(project "PROJECTE_CASTRO_RIBAS"
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/2ae4c977-7e45-4d92-9ae0-450b29246e42"
-					(reference "#PWR?")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -2491,7 +2491,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "898fe1d3-937b-4f80-bc9f-215c18a953c3")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0116"
 			(at 105.41 147.32 0)
 			(effects
 				(font
@@ -2541,7 +2541,7 @@
 		(instances
 			(project "PROJECTE_CASTRO_RIBAS"
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/2ae4c977-7e45-4d92-9ae0-450b29246e42"
-					(reference "#PWR?")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -2562,7 +2562,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c2b2fd4-a647-49a3-8628-fc3a69aa862c")
-		(property "Reference" "D_proteccio_bomba?"
+		(property "Reference" "D_proteccio_bomba2"
 			(at 56.134 104.902 0)
 			(effects
 				(font
@@ -2634,7 +2634,7 @@
 		(instances
 			(project "PROJECTE_CASTRO_RIBAS"
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/2ae4c977-7e45-4d92-9ae0-450b29246e42"
-					(reference "D_proteccio_bomba?")
+					(reference "D_proteccio_bomba2")
 					(unit 1)
 				)
 			)
@@ -2656,7 +2656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c099af44-df74-4f4f-9ca6-46798fe6bc61")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0115"
 			(at 64.77 99.06 0)
 			(effects
 				(font
@@ -2706,7 +2706,7 @@
 		(instances
 			(project "PROJECTE_CASTRO_RIBAS"
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/2ae4c977-7e45-4d92-9ae0-450b29246e42"
-					(reference "#PWR?")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -2728,7 +2728,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c42816a2-51e6-4725-8ce6-c4f959de00e1")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0113"
 			(at 78.74 107.95 0)
 			(effects
 				(font
@@ -2778,7 +2778,7 @@
 		(instances
 			(project "PROJECTE_CASTRO_RIBAS"
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/2ae4c977-7e45-4d92-9ae0-450b29246e42"
-					(reference "#PWR?")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -2800,7 +2800,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d62519a7-8222-4cd8-9d05-cd1e6dc80dc5")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0112"
 			(at 104.14 83.82 0)
 			(effects
 				(font
@@ -2850,7 +2850,7 @@
 		(instances
 			(project "PROJECTE_CASTRO_RIBAS"
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/2ae4c977-7e45-4d92-9ae0-450b29246e42"
-					(reference "#PWR?")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -2871,7 +2871,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6276a2d-1194-458f-9ae7-4dd5554f68b8")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0117"
 			(at 66.04 158.75 0)
 			(effects
 				(font
@@ -2921,7 +2921,7 @@
 		(instances
 			(project "PROJECTE_CASTRO_RIBAS"
 				(path "/27a7fca5-115a-450a-aa60-496c314f6c0e/2ae4c977-7e45-4d92-9ae0-450b29246e42"
-					(reference "#PWR?")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
