@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "bd12ea11-b734-4f73-872c-3f6807f3141a")
 	(paper "A4")
+	(title_block
+		(title "Etapa de Sensors del projecte")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names

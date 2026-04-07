@@ -17,18 +17,6 @@
 		)
 		(uuid "05d42b3d-44bb-45cc-a0dc-d179ee3ef6fb")
 	)
-	(text "INTERACCIÓ\nI\nCOMUNICACIÓ"
-		(exclude_from_sim no)
-		(at 189.23 120.904 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-		)
-		(uuid "2c6cccf4-6350-466a-a5b0-645325938e7b")
-	)
 	(text "PROJECTE COMBUSTIBLE"
 		(exclude_from_sim no)
 		(at 229.616 173.736 0)
@@ -76,6 +64,18 @@
 			)
 		)
 		(uuid "862f9748-708f-4627-a1aa-de59638dadba")
+	)
+	(text "POTÈNCIA"
+		(exclude_from_sim no)
+		(at 187.452 121.92 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "ba915e3d-54fb-4a1c-99e2-50f9aa5b1f49")
 	)
 	(text "15/03/2026"
 		(exclude_from_sim no)
@@ -146,7 +146,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "2ae4c977-7e45-4d92-9ae0-450b29246e42")
-		(property "Sheetname" "ETAPA_INTERACCIO_I_COMUNICACIO"
+		(property "Sheetname" "ETAPA_POTENCIA"
 			(at 146.05 94.5384 0)
 			(effects
 				(font
@@ -155,7 +155,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "etapa_interaccio_i_comunicacio.kicad_sch"
+		(property "Sheetfile" "etapa__potencia.kicad_sch"
 			(at 146.05 146.6346 0)
 			(effects
 				(font
@@ -197,7 +197,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "control_v2.kicad_sch"
+		(property "Sheetfile" "etapa_control.kicad_sch"
 			(at 146.05 78.0546 0)
 			(effects
 				(font
@@ -239,7 +239,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "etapa_potencia.kicad_sch"
+		(property "Sheetfile" "etapa_alimentacio.kicad_sch"
 			(at 36.83 78.0546 0)
 			(effects
 				(font

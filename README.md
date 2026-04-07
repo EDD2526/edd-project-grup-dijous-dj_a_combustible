@@ -47,7 +47,7 @@ Bona connexió amb el vehicle per a que altres unitats de control tinguin accès
   * Alimentació; 12V, regulada 5V i 3.3V
   * Microcontrolador PIC24HJ128GP502
   * Sensor de Pressió: FXTH87
-  * Sensor de COmbustible: FDC2214
+  * Sensor de Combustible: FDC2214
 
 -----------
 
