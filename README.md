@@ -2,8 +2,8 @@ View this project on [CADLAB.io](https://cadlab.io/project/30195).
 
 # Projecte DJ_A_combustible
 
->**Autors: Edgar Castro i Pere Ribas**
->**Versió: 1**
+>**Autors: Edgar Castro i Pere Ribas
+>**Versió: 1
 
 ----------
 
@@ -31,14 +31,14 @@ Bona connexió amb el vehicle per a que altres unitats de control tinguin accès
   Etapa destinada a ser el cervell del projecte.
   Trobem el micro, encarregat de rebre informació a través dels sensors, del CAN i del MAX3232, i de donar ordres ja siguin programades o especificades per l'usuari mitjançant els botons.
   Disposem també d'un conncetor per a la possible programació, de dos DE9 pels transceptors i d'un clock.
+  També tenim la botonera per a controlar el tancament del dipòsit i la bomba de combustible.
 
-  **Etapa 3, Sensors i Potència dels motors**
-  Etapa destinada a agafar informació a través del sensor de pressió de pneumàtics i del sensor de nivell de combustible.
-  A més gràcies a les sortides digitals del micro, MOSFETs i relés, es controlarà de manera segura l'activació o desactivació de la bomba de combustible i l'obriment o tancament del dipòsit.
+  **Etapa 3, Potència**
+ Etapa destinada a controlar mitjançant dos MOSFETs els motors de la Bomba de Combustible i el Tancament del Dipòsit.
+ A més per a major protecció s'han afegit dos relés i dos díodes pels sobrepics de tensió.
 
-  **Etapa 4, Interacció i comunicació**
-  Aquesta última etapa simplement serveix per a activar o desactivar els motors de la bomba o del tancament.
-  Mitjançant botons i LEDs (per demostrar el correcte funcionament) es realitzarà aquestes dues funcions.
+  **Etapa 4, Sensors**
+ Etapa on hi han els sensors de nivell de combustible FDC2214 i el sensor de pressió dels pneumàtics FXTH87 amb les connexions adequades.
 
 -----------
 
@@ -53,7 +53,7 @@ Bona connexió amb el vehicle per a que altres unitats de control tinguin accès
 
 ## Components
 
-| Descripció | Ref | Package | Datasheet | Proveïdor | Preu | Unitats |
+| Descripció | Ref | Package | Datasheet | Proveïdor | Preu Unitari | Unitats |
 | --- | --- | --- | --- | --- | --- | --- |
 | **Microcontrolador PIC24 (16-bit)** | U20 | SOIC-28W | [Datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/70293G.pdf) | [Mouser](https://www.mouser.es/ProductDetail/Microchip-Technology/PIC24HJ128GP502-I-SO?qs=Fllw7YelV39GXmNd3htPpg%3D%3D) | 5,86€ | 1x |
 | **Sensor de Pressió (TPMS)** | U23 | QFN-24-1EP | [Datasheet](https://www.nxp.com/docs/en/reference-manual/FXTH87ERM.pdf) | [DigiKey](https://www.digikey.com/en/products/detail/nxp-usa-inc/FXTH8709116T1/9825562?curr=usd&utm_campaign=buynow&utm_medium=aggregator&utm_source=octopart) | 7.35$ | 1x |
