@@ -6463,7 +6463,6 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
-		(path "/c7bfedf3-33ba-455f-a470-83e81ef64913/e1139380-2c56-497b-a787-6056c393bab1")
 		(sheetname "/ETAPA_CONTROL/")
 		(sheetfile "etapa_control.kicad_sch")
 		(attr smd)
