@@ -34,6 +34,45 @@
 		(45 "User.4" user)
 	)
 	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
@@ -5493,7 +5532,6 @@
 				)
 			)
 		)
-		(path "/214c85b5-e11a-40fa-b086-a325260ddb4b/8509ee84-bd5e-4ccd-8458-74570933a367")
 		(sheetname "/ETAPA_SENSORS/")
 		(sheetfile "etapa_sensorskicad_sch.kicad_sch")
 		(attr smd)
@@ -7508,7 +7546,6 @@
 			)
 		)
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
-		(path "/214c85b5-e11a-40fa-b086-a325260ddb4b/cad1e624-ae84-4ae8-9337-fdbd0c5e96ca")
 		(sheetname "/ETAPA_SENSORS/")
 		(sheetfile "etapa_sensorskicad_sch.kicad_sch")
 		(attr smd)
@@ -7649,7 +7686,6 @@
 			)
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/214c85b5-e11a-40fa-b086-a325260ddb4b/2d44a196-68a8-4673-bf81-0c3a51cefbc5")
 		(sheetname "/ETAPA_SENSORS/")
 		(sheetfile "etapa_sensorskicad_sch.kicad_sch")
 		(attr through_hole)
@@ -8841,7 +8877,6 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/214c85b5-e11a-40fa-b086-a325260ddb4b/e8cdb9b2-7535-46da-909c-b7d6825f36ec")
 		(sheetname "/ETAPA_SENSORS/")
 		(sheetfile "etapa_sensorskicad_sch.kicad_sch")
 		(attr smd)
@@ -11230,7 +11265,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/214c85b5-e11a-40fa-b086-a325260ddb4b/faace0f7-88ea-496a-9e23-d98a1effb197")
 		(sheetname "/ETAPA_SENSORS/")
 		(sheetfile "etapa_sensorskicad_sch.kicad_sch")
 		(attr smd)
@@ -15827,7 +15861,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/214c85b5-e11a-40fa-b086-a325260ddb4b/25051217-934e-4588-8c25-12beb8b9ce7a")
 		(sheetname "/ETAPA_SENSORS/")
 		(sheetfile "etapa_sensorskicad_sch.kicad_sch")
 		(attr smd)
