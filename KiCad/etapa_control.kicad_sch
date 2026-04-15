@@ -3508,18 +3508,6 @@
 		)
 		(uuid "2d4f9f26-f9f3-44be-ba93-e84f6f5a4c03")
 	)
-	(text "AQUI ANIRÀ EL RF!!!!!"
-		(exclude_from_sim no)
-		(at 238.506 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "3ba06acd-61ef-43cf-ae2c-238956c4a3b5")
-	)
 	(text "Transceptor \nMAX3232\n"
 		(exclude_from_sim no)
 		(at 67.31 97.79 0)
