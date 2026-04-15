@@ -56,7 +56,7 @@ Bona connexió amb el vehicle per a que altres unitats de control tinguin accès
 | Descripció | Ref | Package | Datasheet | Proveïdor | Preu Unitari | Unitats |
 | --- | --- | --- | --- | --- | --- | --- |
 | **Microcontrolador PIC24 (16-bit)** | U20 | SOIC-28W | [Datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/70293G.pdf) | [Mouser](https://www.mouser.es/ProductDetail/Microchip-Technology/PIC24HJ128GP502-I-SO?qs=Fllw7YelV39GXmNd3htPpg%3D%3D) | 5,86€ | 1x |
-| **Sensor de Pressió (TPMS)** | U23 | QFN-24-1EP | [Datasheet](https://www.nxp.com/docs/en/reference-manual/FXTH87ERM.pdf) | [DigiKey](https://www.digikey.com/en/products/detail/nxp-usa-inc/FXTH8709116T1/9825562?curr=usd&utm_campaign=buynow&utm_medium=aggregator&utm_source=octopart) | 7.35$ | 1x |
+| **Mòdul RF Receptor** | XY-MK-5V | - | [Datasheet](https://www.berrybase.ch/en/product-datasheet/019234a3d36272808ea5c21625235fe6/create) | - | - | 1x |
 | **Sensor Capacitiu (Combustible)** | U6 | QFN-16 | [Datasheet](https://www.ti.com/lit/ds/symlink/fdc2214.pdf) | [Mouser](https://www.mouser.es/ProductDetail/Texas-Instruments/FDC2214RGHR?qs=GJ%2F2ZGcr5uPBUC9HQa0OnA%3D%3D) | 5,38€ | 1x |
 | **Relé SPST-NO (6A)** | K1, K2 | Vertical THT | [Datasheet](https://www.fujitsu.com/sg/imagesgig5/ftr-ly.pdf) | - | - | 2x |
 | **MOSFET N-Channel** | Q1, Q2 | TO-220F-3 | [Datasheet](http://www.irf.com/product-info/datasheets/data/irliz44n.pdf) | - | - | 2x |
@@ -161,3 +161,7 @@ Falta posar les petjades al readme
 ### 08/04/2026
 **Placement V1**, falta posar tots els components passius, però com és un placement i a sobre quasi al 100% s'haurà de canviar una mica, posar aquests components és perdre el temps.
 Hem començat també a posar els proveïdors i els preus a la llista del Readme i s'ha actualitzat la foto per a que es vegi
+
+
+### 15/04/2026
+Començament del ruteig
