@@ -165,3 +165,6 @@ Hem començat també a posar els proveïdors i els preus a la llista del Readme 
 
 ### 15/04/2026
 Començament del ruteig
+
+### 16/04/2026
+Modificació correccions per part del professorat. Afegim captures de diferents versions de del routing (ERC amb 0 errors). Faltaria veure si hi ha alguna cosa a corregir i passar a la part final del projecte.
