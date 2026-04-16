@@ -78,7 +78,7 @@ Bona connexió amb el vehicle per a que altres unitats de control tinguin accès
 | **Inductor 33uH (DCDC)** | L_DCDC1 | SRP7028A | [Datasheet](https://www.bourns.com/docs/product-datasheets/srp7028a.pdf) | - | - | 1x |
 | **Inductor 18uH (Filtre)** | L1 | L_0805 | [Datasheet](https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_decoupling_mlz2012_en.pdf) | - | - | 1x |
 | **Ferrite Bead** | FB1, FB2 | L_1812 | [Datasheet](https://www.we-online.com/components/products/datasheet/7427922.pdf) | - | - | 2x |
-| **Consador 680uF** | Cin_DCDC1 | Radial D10mm | [Datasheet](https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1259.pdf) | - | - | 1x |
+| **Condensador 680uF** | Cin_DCDC1 | Radial D10mm | [Datasheet](https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1259.pdf) | - | - | 1x |
 | **Condensador 220uF** | Cout_DCDC1 | Radial D10mm |  [Datasheet](https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1259.pdf) | - | - | 1x |
 | **Condensador 100uF** | Cout_reg1 | Radial D5mm |  [Datasheet](https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1259.pdf) | - | - | 1x |
 | **Condensadors 10uF** | C7, Cin_reg1 | C_0805 | [Datasheet](https://datasheets.kyocera-avx.com/AutoMLCC.pdf) | - | - | 2x |
