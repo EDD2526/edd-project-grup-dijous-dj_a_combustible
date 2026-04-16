@@ -1316,12 +1316,6 @@
 		(color 0 0 0 0)
 		(uuid "540f3325-d3d7-4996-8e40-4b647d3f1b2f")
 	)
-	(junction
-		(at 144.78 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ccb1e153-464b-45d8-bda2-2b7d324713aa")
-	)
 	(no_connect
 		(at 31.75 64.77)
 		(uuid "8721be30-f7fc-4481-83b4-0fda185bbdff")
@@ -1379,16 +1373,6 @@
 			(type default)
 		)
 		(uuid "075b5523-c20a-4ebf-bd2c-3583874f17cd")
-	)
-	(wire
-		(pts
-			(xy 144.78 60.96) (xy 144.78 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c030bfd-5dc7-4d28-a75c-407dafda6fb5")
 	)
 	(wire
 		(pts
@@ -1472,6 +1456,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 60.96) (xy 151.13 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60b6beeb-a3db-4358-96d3-5a4c00534d2b")
+	)
+	(wire
+		(pts
 			(xy 31.75 68.58) (xy 24.13 68.58)
 		)
 		(stroke
@@ -1482,7 +1476,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 63.5) (xy 144.78 63.5)
+			(xy 130.81 63.5) (xy 151.13 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1499,16 +1493,6 @@
 			(type default)
 		)
 		(uuid "6abad16b-7c8a-4e59-8b9b-caa5f6ca6002")
-	)
-	(wire
-		(pts
-			(xy 151.13 60.96) (xy 144.78 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d9d3e14-53e7-4b26-9c17-731a002ca4fa")
 	)
 	(wire
 		(pts
@@ -1539,16 +1523,6 @@
 			(type default)
 		)
 		(uuid "91f63bfc-4595-4fc5-be75-a3a8d21da7cd")
-	)
-	(wire
-		(pts
-			(xy 144.78 63.5) (xy 151.13 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9438551e-e14b-4abd-95ed-fb2732a42626")
 	)
 	(bus
 		(pts
@@ -1682,6 +1656,28 @@
 			)
 		)
 	)
+	(global_label "RF_data1"
+		(shape output)
+		(at 130.81 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8694e380-f2cd-4c6a-b21e-308e235ee4f2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.1164 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SDA"
 		(shape bidirectional)
 		(at 27.94 53.34 180)
@@ -1704,9 +1700,9 @@
 			)
 		)
 	)
-	(global_label "RF_data"
-		(shape input)
-		(at 132.08 63.5 180)
+	(global_label "RF_data0"
+		(shape output)
+		(at 130.81 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1716,7 +1712,7 @@
 		)
 		(uuid "eb3e9b86-af28-4b5a-9c2c-1d4b8976ce7d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.5959 63.5 0)
+			(at 119.1164 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)

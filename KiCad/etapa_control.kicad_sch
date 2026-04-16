@@ -3474,16 +3474,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Programar Micro per rebre senyals PWM"
-		(exclude_from_sim no)
-		(at 245.364 70.104 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "113e6655-1f59-42d5-9772-c8b72774f3a9")
-	)
 	(text "Transceptor CAN\n(equivalent al TJA1050)"
 		(exclude_from_sim no)
 		(at 83.82 24.13 0)
@@ -3681,10 +3671,6 @@
 	(no_connect
 		(at 31.75 92.71)
 		(uuid "1a9d7f77-a17b-45fa-be3b-b39d8df4a12a")
-	)
-	(no_connect
-		(at 222.25 71.12)
-		(uuid "2bd34ba8-b28b-4db7-a4be-f417b3e8b713")
 	)
 	(no_connect
 		(at 31.75 55.88)
@@ -4411,6 +4397,16 @@
 			(type default)
 		)
 		(uuid "77f84643-c3f9-428a-af19-2051d279409b")
+	)
+	(wire
+		(pts
+			(xy 222.25 71.12) (xy 250.19 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7934d928-3eda-4788-bca8-9e54c38967d2")
 	)
 	(wire
 		(pts
@@ -5560,6 +5556,28 @@
 			)
 		)
 	)
+	(global_label "RF_data1"
+		(shape input)
+		(at 250.19 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "71875596-e652-47e2-805f-7da08856eeef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 261.8836 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "C1RX"
 		(shape output)
 		(at 69.85 55.88 180)
@@ -5714,21 +5732,20 @@
 			)
 		)
 	)
-	(global_label "RF_data"
+	(global_label "RF_data0"
 		(shape input)
 		(at 250.19 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
+				(thickness 0.1588)
 			)
 			(justify left)
 		)
 		(uuid "bb420139-5083-467d-bf19-dfb962a9372b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 261.1501 63.5 0)
+			(at 261.8836 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
