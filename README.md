@@ -46,8 +46,24 @@ Bona connexió amb el vehicle per a que altres unitats de control tinguin accès
 
   * Alimentació; 12V, regulada 5V i 3.3V
   * Microcontrolador PIC24HJ128GP502
-  * Sensor de Pressió: FXTH87
+  * Mòdel RF Receptor
   * Sensor de Combustible: FDC2214
+    
+  # Regles de disseny 
+  * Marge mínim: 0.2mm
+  * Amplada mínima de la pista: 0.1mm
+  * Amplada mínima de conenxionat: 0.2mm
+  * Marge de cobre a forat: 0.25mm
+  * Diàmetre mínim de uVia: 0.25mm
+  * Orifici mínim de uVia: 0.15mm
+  * Modificacions de la serigrafia
+  * Classes de nodes i amplada
+    ** GND → 0.2mm
+    ** GND_PWR → 0.5mm
+    ** Alimentació → 0.5mm
+    ** 5V → 0.3mm
+    ** 3.3V → 0.2mm
+    ** Default → 0.25mm
 
 -----------
 
