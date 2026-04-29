@@ -57,13 +57,14 @@ Bona connexió amb el vehicle per a que altres unitats de control tinguin accès
   * Diàmetre mínim de uVia: 0.25mm
   * Orifici mínim de uVia: 0.15mm
   * Modificacions de la serigrafia
-  * Classes de nodes i amplada
-    ** GND → 0.2mm
-    ** GND_PWR → 0.5mm
-    ** Alimentació → 0.5mm
-    ** 5V → 0.3mm
-    ** 3.3V → 0.2mm
-    ** Default → 0.25mm
+
+**Classes de nodes i amplada**
+  * GND → 0.2mm
+  * GND_PWR → 0.5mm
+  * Alimentació → 0.5mm
+  * 5V → 0.3mm
+  * 3.3V → 0.2mm
+  * Default → 0.25mm
 
 -----------
 
