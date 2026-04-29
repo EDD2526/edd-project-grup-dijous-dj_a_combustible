@@ -99,13 +99,13 @@ Bona connexió amb el vehicle per a que altres unitats de control tinguin accès
   * LTspice
   * Lucid
 
-### Configuraci&#243; :
-
-  * 
-
 ### Funcionalitats:
 
-  * 
+  * El tancament i obertura del tanc de combustible
+  * L'activació de la bomba que subministra el combustible al motor del vehicle
+  * Captar informació sobre el nivell de combustible a través d'un sensor digital per a comunicar amb l'usuari
+  * Mesurar activament la pressió dels pneumàtics del cotxe. En aquest cas, amb un receptor RF es reben les dades captades per un sensor de pressió (el sensor no forma part del projecte ja que físicament no té sentit que sigui a la pcb, sinó aprop del pneumàtic).
+  * Comunicar tota aquesta informació a l'usuari del vehicle i a tot el vehcile en sí a través de diferents mètodes d'enviament de dades (UART i CAN).  
 
 -----------
 
@@ -168,3 +168,8 @@ Començament del ruteig
 
 ### 16/04/2026
 Modificació correccions per part del professorat. Afegim captures de diferents versions de del routing (ERC amb 0 errors). Faltaria veure si hi ha alguna cosa a corregir i passar a la part final del projecte.
+
+### 29/04/2026
+Últims retocs al esquemàtic i al layout. S'ha fet la presentació, final, s'han afegit els gerbers, BOM, fotos 3D del layout final i fotos de l'esquemàtic.
+Pressupost fet i afegida la carpeta del pressupost al projecte.
+**Falta acabar el readme, la taula de components**

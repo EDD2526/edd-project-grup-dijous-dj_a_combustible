@@ -1258,7 +1258,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Sensors amb connectors genèrics"
+	(text "Sensor i Mòdul RF (connector)"
 		(exclude_from_sim no)
 		(at 91.44 21.59 0)
 		(effects
