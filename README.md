@@ -49,7 +49,7 @@ Bona connexió amb el vehicle per a que altres unitats de control tinguin accès
   * Mòdel RF Receptor
   * Sensor de Combustible: FDC2214
     
-  # Regles de disseny 
+  ### Regles de disseny 
   * Marge mínim: 0.2mm
   * Amplada mínima de la pista: 0.1mm
   * Amplada mínima de conenxionat: 0.2mm
