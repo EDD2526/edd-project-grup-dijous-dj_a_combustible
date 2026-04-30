@@ -3,7 +3,7 @@ View this project on [CADLAB.io](https://cadlab.io/project/30195).
 # Projecte DJ_A_combustible
 
 >**Autors: Edgar Castro i Pere Ribas
->**Versió: 1
+>**Versió: Final
 
 ----------
 
@@ -46,7 +46,7 @@ Bona connexió amb el vehicle per a que altres unitats de control tinguin accès
 
   * Alimentació; 12V, regulada 5V i 3.3V
   * Microcontrolador PIC24HJ128GP502
-  * Mòdel RF Receptor
+  * Mòdul RF Receptor
   * Sensor de Combustible: FDC2214
     
   ### Regles de disseny 
