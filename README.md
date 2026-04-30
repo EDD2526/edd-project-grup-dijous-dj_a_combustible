@@ -192,4 +192,4 @@ Pressupost fet i afegida la carpeta del pressupost al projecte.
 **Falta acabar el readme, la taula de components**
 
 ### 30/04/2026
-Tot preparat (des de ahir). Presentació realitzada amb el procès d'aquest projecte. Nervis d'últim dia, però està controlat!
+Tot preparat (des d'ahir). Presentació realitzada amb el procés d'aquest projecte. Nervis d'últim dia, però està controlat!
