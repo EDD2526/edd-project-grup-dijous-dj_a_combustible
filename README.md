@@ -190,3 +190,6 @@ Modificació correccions per part del professorat. Afegim captures de diferents 
 Últims retocs al esquemàtic i al layout. S'ha fet la presentació, final, s'han afegit els gerbers, BOM, fotos 3D del layout final i fotos de l'esquemàtic.
 Pressupost fet i afegida la carpeta del pressupost al projecte.
 **Falta acabar el readme, la taula de components**
+
+### 30/04/2026
+Tot preparat (des de ahir). Presentació realitzada amb el procès d'aquest projecte. Nervis d'últim dia, però està controlat!
